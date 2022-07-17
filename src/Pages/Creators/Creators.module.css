@@ -1,0 +1,133 @@
+.creatorsContainer {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3vw;
+  box-sizing: border-box;
+}
+
+.creatorsContainer .creatorPearson {
+  width: 60%;
+  height: 40vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1vw;
+  border-radius: 1vw;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  margin-top: 4vh;
+}
+
+.creatorsContainer .creatorPearson:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  border-radius: 2vw;
+}
+
+.creatorsContainer .creatorPearson img {
+  width: 30%;
+  height: 80%;
+  background-color: #ccc;
+}
+
+.creatorsContainer .creatorPearson .contents {
+  width: 50%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  direction: rtl;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.creatorsContainer .creatorPearson .contents p {
+  direction: rtl;
+  text-align: center;
+}
+
+.creatorsContainer a:hover,
+.creatorsContainer p:hover {
+  color: #fff;
+}
+
+.creatorsContainer .e,
+.creatorsContainer .v {
+  background-color: #4934d4bb;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 3vw;
+  padding-left: 3vw;
+}
+
+.creatorsContainer .e:hover,
+.creatorsContainer .v:hover {
+  background-color: rgba(0, 0, 128, 0.6);
+}
+
+.creatorsContainer .v {
+  background-color: #2727a78c;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.creatorsContainer .v:hover {
+  background-color: rgba(0, 0, 128, 0.6);
+}
+
+@media (max-width: 800px) {
+  .creatorsContainer {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .creatorsContainer .creatorPearson {
+    width: 100%;
+    height: 30vh;
+  }
+  .creatorsContainer .creatorPearson:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .creatorsContainer .creatorPearson img {
+    width: 40%;
+  }
+  .creatorsContainer .creatorPearson .contents {
+    font-size: 3vw;
+  }
+}
+/*# sourceMappingURL=Creators.module.css.map */

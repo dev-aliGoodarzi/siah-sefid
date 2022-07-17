@@ -1,0 +1,147 @@
+.navBar {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex : {
+    direction: column;
+  }
+  align-items: center;
+  justify-content: space-between;
+  transition: 1s all ease;
+
+  &.hide {
+    height: 15vh;
+  }
+
+  .contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex : {
+      direction: row-reverse;
+    }
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s all ease;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(70, 70, 154, 0.1) 10%,
+      rgba(16, 10, 38, 0.922) 28%
+    );
+    box-sizing: border-box;
+    padding: {
+      top: 1vh;
+      left: 1vw;
+      right: 1vw;
+      bottom: 1vh;
+    }
+    .magzineName {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font : {
+        size: 3vw;
+      }
+      background: -webkit-linear-gradient(
+        180deg,
+        magenta,
+        teal,
+        pink,
+        #64fe,
+        #ccc,
+        #757575,
+        #64fe,
+        green
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: colorChanger 1.5s ease 0s infinite backwards;
+    }
+    img {
+      width: 7%;
+      height: 100%;
+    }
+    .logoImg {
+      border-radius: 50%;
+      animation: logoColorChanger 0.5s ease 0s infinite backwards;
+    }
+  }
+}
+
+@media (min-width: 1px) and (max-width: 800px) {
+  .navBar {
+    width: 100%;
+    height: 7vh;
+    margin: {
+      bottom: 5vh;
+    }
+
+    .contents {
+      width: 100%;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(16, 10, 38, 0.922) 20%
+      );
+      .magzineName {
+        width: max-content;
+        direction: rtl;
+        text : {
+        }
+        font : {
+          size: 4vw;
+        }
+      }
+      img {
+        width: 10vw;
+      }
+    }
+  }
+}
+
+@keyframes colorChanger {
+  0% {
+    background-position: 0px;
+  }
+
+  50% {
+    background-position: 200px;
+  }
+  75% {
+    background-position: -50px;
+  }
+  100% {
+    background-position: 0px;
+  }
+}
+
+@keyframes logoColorChanger {
+  from {
+    background: radial-gradient(circle at top, #ccc, magenta, teal);
+  }
+  12% {
+    background: radial-gradient(circle at top right, #ccc, magenta, teal);
+  }
+  24% {
+    background: radial-gradient(circle at right, #ccc, magenta, teal);
+  }
+  36% {
+    background: radial-gradient(circle at bottom right, #ccc, magenta, teal);
+  }
+  50% {
+    background: radial-gradient(circle at bottom, #ccc, magenta, teal);
+  }
+  62% {
+    background: radial-gradient(circle at bottom left, #ccc, magenta, teal);
+  }
+  75% {
+    background: radial-gradient(circle at left, #ccc, magenta, teal);
+  }
+  100% {
+    background: radial-gradient(circle at top left, #ccc, magenta, teal);
+  }
+}

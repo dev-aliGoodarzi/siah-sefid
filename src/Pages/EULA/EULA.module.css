@@ -1,0 +1,40 @@
+.eulaContainer {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3vw;
+}
+
+.eulaContainer h1 {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  direction: rtl;
+  font-size: 1.6vw;
+}
+
+.eulaContainer p {
+  direction: rtl;
+  padding: 0.5vw;
+  margin-top: 4vh;
+}
+
+.eulaContainer p mark {
+  color: red;
+  background-color: transparent;
+}
+/*# sourceMappingURL=EULA.module.css.map */

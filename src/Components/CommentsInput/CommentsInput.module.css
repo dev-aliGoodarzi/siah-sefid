@@ -1,0 +1,92 @@
+.commentsInputContainer {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.commentsInputContainer label {
+  font-size: 1.3rem;
+  color: #64fe;
+}
+
+.commentsInputContainer .commentHelp {
+  margin-top: 1rem;
+  color: teal;
+}
+
+.commentsInputContainer input {
+  width: 30rem;
+  height: 7vh;
+  border-radius: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1vw;
+  background-color: rgba(58, 31, 179, 0.801);
+  color: #fff;
+}
+
+.commentsInputContainer button {
+  width: 15rem;
+  height: 5vh;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  background-color: cyan;
+  border-radius: 1rem;
+  -webkit-transition: 0.1s ease all;
+  transition: 0.1s ease all;
+}
+
+.commentsInputContainer button:hover {
+  background-color: rgba(233, 0, 0, 0.933);
+  color: #fff;
+}
+
+.commentsInputContainer button:active {
+  background-color: rgba(99, 21, 224, 0.933);
+  color: #fff;
+}
+
+@media (min-width: 1px) and (max-width: 500px) {
+  .commentsInputContainer input {
+    width: 15rem;
+  }
+  .commentsInputContainer button {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  .commentsInputContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .commentsInputContainer label {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .commentsInputContainer input {
+    width: 80vw;
+  }
+  .commentsInputContainer button {
+    margin-right: 0;
+  }
+}
+/*# sourceMappingURL=CommentsInput.module.css.map */

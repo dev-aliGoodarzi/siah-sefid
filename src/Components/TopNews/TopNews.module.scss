@@ -1,0 +1,159 @@
+.topNews {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex : {
+    direction: column;
+  }
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1vw;
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s ease;
+  }
+  .absoluteOpacity {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.3;
+  }
+  .fourNewestNewsContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex : {
+      direction: row;
+    }
+  }
+
+  .newsItem {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex : {
+      direction: column;
+    }
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 6px 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 1vw;
+    margin: 2vw;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding: 1vw;
+    transition: all 0.5s ease;
+    &:hover {
+      transform: scale(1.1);
+      background-color: #78787846;
+    }
+    .imgContainer {
+      width: 80%;
+      height: 50%;
+      position: relative;
+      background : {
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+      }
+    }
+    .headerContent {
+      text : {
+        align: right;
+      }
+      font : {
+        size: 1.3vw;
+      }
+    }
+    .textContent {
+      width: 100%;
+      height: max-content;
+      font : {
+        size: 1vw;
+      }
+      text : {
+        align: right;
+      }
+    }
+    .writenBy {
+      width: 100%;
+      height: max-content;
+      display: flex;
+      flex : {
+        direction: row-reverse;
+      }
+      font : {
+        size: 1vw;
+      }
+      svg {
+        font : {
+          size: 1.3vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .topNews {
+    width: 100%;
+    height: max-content;
+    box-sizing: border-box;
+    .fourNewestNewsContainer {
+      width: 100%;
+      height: max-content;
+      display: flex;
+      flex : {
+        direction: column;
+      }
+      align-items: center;
+      box-sizing: border-box;
+      padding: 3vw;
+      .newsItem {
+        width: 100%;
+        height: 70vh;
+        box-sizing: border-box;
+        padding: 2vw;
+        &:hover {
+          transform: scale(1);
+        }
+        .imgContainer {
+          width: 100%;
+          height: 60%;
+        }
+        .headerContent,
+        .textContent {
+          width: 100%;
+          font : {
+            size: 4vw;
+          }
+          text : {
+            align: right;
+          }
+        }
+        .textContent {
+          font : {
+            size: 3.5vw;
+          }
+        }
+        .writenBy {
+          width: 100%;
+          height: max-content;
+          display: flex;
+          align-items: center;
+          font : {
+            size: 3vw;
+          }
+          svg {
+            font-size: 3vw;
+          }
+        }
+      }
+    }
+  }
+}

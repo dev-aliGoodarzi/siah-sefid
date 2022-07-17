@@ -1,0 +1,36 @@
+.comnments {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  .pearsonCommentContainer {
+    width: 90%;
+    height: max-content;
+    position: relative;
+    right: 5%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgba(88, 156, 156, 0.541);
+    margin: {
+      top: 0.5rem;
+      bottom: 0.5rem;
+    }
+  }
+}
+@media (min-width: 1px) and (max-width: 800px) {
+  .comnments {
+    width: 95vw;
+    right: -5vw;
+    .pearsonCommentContainer {
+      width: 100%;
+      right: 0;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

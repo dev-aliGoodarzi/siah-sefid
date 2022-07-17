@@ -1,0 +1,114 @@
+.notFound {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 15vh;
+}
+
+.notFound p {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.notFound img {
+  width: 50%;
+  height: 30%;
+  -webkit-animation: sssssf 1s ease 0s infinite alternate linear forwards;
+          animation: sssssf 1s ease 0s infinite alternate linear forwards;
+  --webkit-animation-name: sssssf;
+  --webkit-animation-direction: 1s;
+  --webkit-animation-timing-function: ease-in-out;
+  --webkit-animation-delay: 0;
+  --webkit-animation-iteration-count: infinite;
+  --webkit-animation-fill-mode: forwards;
+  position: relative;
+}
+
+.notFound .itemsContainer {
+  width: 30%;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.notFound .itemsContainer a,
+.notFound .itemsContainer button {
+  width: 10vw;
+  border: 2px solid #63f;
+  border-radius: 2vw;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.notFound .itemsContainer a:hover,
+.notFound .itemsContainer button:hover {
+  border-color: transparent;
+  background-color: #0af;
+}
+
+.notFound .itemsContainer button {
+  background-color: transparent;
+}
+
+@-webkit-keyframes sssssf {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  50% {
+    top: 100px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes sssssf {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  50% {
+    top: 100px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+/*# sourceMappingURL=E__404.module.css.map */

@@ -1,0 +1,276 @@
+.mobileContainer {
+  width: 100%;
+  height: 75vh;
+  background-color: transparent;
+  position: relative;
+  top: 5vh;
+  box-sizing: border-box;
+  padding: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    color: #000;
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+      color: #000;
+    }
+  }
+
+  .rightContents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex : {
+      direction: row;
+    }
+    align-items: center;
+    justify-content: space-evenly;
+    .leftLittleItems {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      flex : {
+        direction: column;
+      }
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 1vw;
+      .littleItem {
+        width: 100%;
+        height: 23%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 6px 1rem rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        padding: 0.5vw;
+        border-radius: 1vw;
+        transition: all 0.5s ease;
+        &:hover {
+          transform: scale(1.1);
+          background-color: rgba(7, 168, 231, 0.5);
+        }
+        .contents {
+          width: 70%;
+          height: 100%;
+          display: flex;
+          flex : {
+            direction: column;
+          }
+          align-items: center;
+          justify-content: space-evenly;
+
+          h4 {
+            box-sizing: border-box;
+            padding: 0.5vw;
+            font-weight: 400;
+            text : {
+              align: right;
+            }
+            font : {
+              size: 0.8rem;
+            }
+          }
+          h6 {
+            display: flex;
+            flex-direction: row-reverse;
+            font : {
+              size: 0.7rem;
+            }
+          }
+        }
+        .picture {
+          width: 30%;
+          height: 100%;
+          border-radius: 0.3rem;
+          background : {
+            size: cover;
+            repeat: no-repeat;
+            position: center;
+          }
+        }
+      }
+    }
+    .rightBigItem {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex : {
+        direction: column;
+      }
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0 6px 1rem rgba(0, 0, 0, 0.2);
+      box-sizing: border-box;
+      padding: 1vw;
+      transition: all 0.2s ease;
+      border-radius: 1vw;
+      direction: rtl;
+      &:hover {
+        background-color: rgba(0, 128, 231, 0.5);
+        transform: scale(1.1);
+      }
+      .imageContainer {
+        width: 100%;
+        height: 65%;
+        background : {
+          size: cover;
+          repeat: no-repeat;
+          position: center;
+        }
+      }
+      .newsName {
+        color: #000;
+      }
+      .newsAbout {
+        width: 100%;
+        text-decoration: left;
+        font : {
+          size: 1.2vw;
+        }
+        color: #444444;
+        text-align: right;
+      }
+      .writenBy {
+        width: 100%;
+        font : {
+          size: 0.8rem;
+        }
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: right;
+      }
+    }
+  }
+}
+@media (min-width: 1px) and (max-width: 640px) {
+  .mobileContainer {
+    width: 100%;
+    height: max-content;
+    .rightContents {
+      display: flex;
+      flex : {
+        direction: column-reverse;
+      }
+      .rightBigItem {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        &:hover {
+          transform: scale(1);
+        }
+        .imageContainer {
+          width: 100%;
+          height: 60%;
+        }
+        .newsName {
+          width: 100%;
+          font : {
+            size: 4vw;
+          }
+          text-align: right;
+        }
+        .newsAbout {
+          width: 100%;
+          font : {
+            size: 3.5vw;
+          }
+          text-align: right;
+        }
+        .writenBy {
+          width: 100%;
+          font : {
+            size: 4vw;
+          }
+          text-align: right;
+        }
+      }
+      .leftLittleItems {
+        width: 100%;
+        height: max-content;
+        box-sizing: border-box;
+        padding: 1vw;
+        margin: {
+          top: 1vw;
+        }
+        display: flex;
+        flex : {
+          direction: column;
+        }
+        .littleItem {
+          width: 100%;
+          height: 70vh;
+          display: flex;
+          flex : {
+            direction: column-reverse;
+          }
+          align-items: center;
+          justify-content: center;
+          box-sizing: border-box;
+          padding: 3vw;
+          &:hover {
+            transform: scale(1);
+          }
+          .picture {
+            width: 100%;
+            height: 60%;
+          }
+          .contents {
+            width: 100%;
+            height: 40%;
+            h4 {
+              width: 100%;
+              text-align: right;
+              font : {
+                size: 4vw;
+                weight: bold;
+              }
+            }
+            h6 {
+              width: 100%;
+              text-align: right;
+              font : {
+                size: 3vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+}
+
+@media (min-width: 1008px) {
+  .computerContainer {
+    .rightContents {
+      .leftLittleItems {
+        .littleItem {
+          .contents {
+            h4 {
+              font : {
+                size: 1.2vw;
+              }
+            }
+            h6 {
+              font : {
+                size: 1vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

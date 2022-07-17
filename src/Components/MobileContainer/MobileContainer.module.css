@@ -1,0 +1,342 @@
+.mobileContainer {
+  width: 100%;
+  height: 75vh;
+  background-color: transparent;
+  position: relative;
+  top: 5vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mobileContainer a {
+  color: #000;
+}
+
+.mobileContainer a:hover, .mobileContainer a:active, .mobileContainer a:focus, .mobileContainer a:visited {
+  color: #000;
+}
+
+.mobileContainer .rightContents {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mobileContainer .rightContents .leftLittleItems {
+  width: 40%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1vw;
+}
+
+.mobileContainer .rightContents .leftLittleItems .littleItem {
+  width: 100%;
+  height: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0 6px 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 1rem rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.5vw;
+  border-radius: 1vw;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.mobileContainer .rightContents .leftLittleItems .littleItem:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: rgba(7, 168, 231, 0.5);
+}
+
+.mobileContainer .rightContents .leftLittleItems .littleItem .contents {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mobileContainer .rightContents .leftLittleItems .littleItem .contents h4 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.5vw;
+  font-weight: 400;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.mobileContainer .rightContents .leftLittleItems .littleItem .contents h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  font-size: 0.7rem;
+}
+
+.mobileContainer .rightContents .leftLittleItems .littleItem .picture {
+  width: 30%;
+  height: 100%;
+  border-radius: 0.3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mobileContainer .rightContents .rightBigItem {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 0 6px 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 1rem rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1vw;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-radius: 1vw;
+  direction: rtl;
+}
+
+.mobileContainer .rightContents .rightBigItem:hover {
+  background-color: rgba(0, 128, 231, 0.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.mobileContainer .rightContents .rightBigItem .imageContainer {
+  width: 100%;
+  height: 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mobileContainer .rightContents .rightBigItem .newsName {
+  color: #000;
+}
+
+.mobileContainer .rightContents .rightBigItem .newsAbout {
+  width: 100%;
+  -webkit-text-decoration: left;
+          text-decoration: left;
+  font-size: 1.2vw;
+  color: #444444;
+  text-align: right;
+}
+
+.mobileContainer .rightContents .rightBigItem .writenBy {
+  width: 100%;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+}
+
+@media (min-width: 1px) and (max-width: 640px) {
+  .mobileContainer {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .mobileContainer .rightContents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .mobileContainer .rightContents .rightBigItem {
+    width: 100%;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .mobileContainer .rightContents .rightBigItem:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .mobileContainer .rightContents .rightBigItem .imageContainer {
+    width: 100%;
+    height: 60%;
+  }
+  .mobileContainer .rightContents .rightBigItem .newsName {
+    width: 100%;
+    font-size: 4vw;
+    text-align: right;
+  }
+  .mobileContainer .rightContents .rightBigItem .newsAbout {
+    width: 100%;
+    font-size: 3.5vw;
+    text-align: right;
+  }
+  .mobileContainer .rightContents .rightBigItem .writenBy {
+    width: 100%;
+    font-size: 4vw;
+    text-align: right;
+  }
+  .mobileContainer .rightContents .leftLittleItems {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 1vw;
+    margin-top: 1vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mobileContainer .rightContents .leftLittleItems .littleItem {
+    width: 100%;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 3vw;
+  }
+  .mobileContainer .rightContents .leftLittleItems .littleItem:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .mobileContainer .rightContents .leftLittleItems .littleItem .picture {
+    width: 100%;
+    height: 60%;
+  }
+  .mobileContainer .rightContents .leftLittleItems .littleItem .contents {
+    width: 100%;
+    height: 40%;
+  }
+  .mobileContainer .rightContents .leftLittleItems .littleItem .contents h4 {
+    width: 100%;
+    text-align: right;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .mobileContainer .rightContents .leftLittleItems .littleItem .contents h6 {
+    width: 100%;
+    text-align: right;
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 1008px) {
+  .computerContainer .rightContents .leftLittleItems .littleItem .contents h4 {
+    font-size: 1.2vw;
+  }
+  .computerContainer .rightContents .leftLittleItems .littleItem .contents h6 {
+    font-size: 1vw;
+  }
+}
+/*# sourceMappingURL=MobileContainer.module.css.map */

@@ -1,0 +1,145 @@
+.computerPage {
+  width: 80vw;
+  height: max-content;
+  position: relative;
+  left: 10vw;
+  box-sizing: border-box;
+  padding-top: 3vw;
+  display: flex;
+  flex : {
+    direction: column;
+  }
+  align-items: center;
+  transition: all 1s ease;
+  transform: scale(0);
+  h3 {
+    direction: rtl;
+
+    font : {
+      size: 1.2rem;
+    }
+    text : {
+      align: justify;
+    }
+  }
+
+  .newsItemsMasterContainer {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    flex  : {
+      direction: column-reverse;
+    }
+    align-items: center;
+    .computerNewsItem {
+      width: 100%;
+      height: 20vh;
+      box-sizing: border-box;
+      padding: 1vw;
+      margin: 1vw;
+      background-color: transparent;
+      position: relative;
+      display: flex;
+      flex : {
+        direction: row-reverse;
+      }
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 1px 1px 5px #888888;
+      border-radius: 1vw;
+      transition: all 0.5s ease;
+      .absoluteItem {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-color: transparent;
+        opacity: 0.3;
+        border-radius: 1vw;
+      }
+      &:hover {
+        transform: scale(1.2);
+        .absoluteItem {
+          background-color: #181818;
+        }
+      }
+      .picContainer {
+        width: 20%;
+        height: 100%;
+        background : {
+          size: cover;
+          repeat: no-repeat;
+          position: center;
+        }
+      }
+      .contentContainer {
+        width: max-content;
+        text-align: right;
+        margin-left: 3vw;
+      }
+      .writenBy {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .computerPage {
+    width: 100%;
+
+    h3 {
+      width: 90%;
+      height: max-content;
+      font : {
+        size: 4vw;
+      }
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+    left: 0;
+    .newsItemsMasterContainer {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      .computerNewsItem {
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex : {
+          direction: column;
+        }
+        align-items: center;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding: 3vw;
+        .picContainer {
+          width: 100%;
+          height: 60%;
+          border-radius: 3vw;
+        }
+        .contentContainer {
+          width: 100%;
+          height: max-content;
+          .newsName {
+            font : {
+              size: 3vw;
+            }
+          }
+          .writenBy {
+            font : {
+              size: 2.8vw;
+            }
+            padding: {
+              top: 2vh;
+            }
+          }
+        }
+      }
+    }
+  }
+}

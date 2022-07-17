@@ -1,0 +1,61 @@
+.mainContainer .middy {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: right;
+  position: relative;
+  top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 80vw;
+  margin-bottom: 1vh;
+  text-align: right;
+  direction: rtl;
+  font-size: 3vw;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: transparent !important;
+}
+
+.mainContainer .middy:hover {
+  color: #64fe;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: transparent !important;
+}
+
+.mainContainer .scrollIndicatiorContainer {
+  width: 100vw;
+  height: 1vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background-color: transparent;
+}
+
+.mainContainer .scrollIndicatiorContainer .inner {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0.1vh;
+  background-color: #64f;
+  border-top-right-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 800px) {
+  .mainContainer .middy {
+    width: 10%;
+    color: #000;
+    padding: 3vw;
+    z-index: 500;
+    font-size: 8vw;
+    font-left: 3%;
+  }
+}
+/*# sourceMappingURL=App.module.css.map */

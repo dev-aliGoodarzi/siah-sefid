@@ -1,0 +1,68 @@
+.printsContainer {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.printsContainer a {
+  width: 90%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: rgba(0, 0, 128, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 1vh;
+  border-radius: 1rem;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.printsContainer a .left {
+  position: relative;
+  left: 0;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+
+.printsContainer a .right {
+  position: relative;
+  right: 0;
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+}
+
+.printsContainer a:hover {
+  background-color: teal;
+}
+
+.printsContainer a:hover .left {
+  left: 20vw;
+}
+
+.printsContainer a:hover .right {
+  right: 10vw;
+}
+/*# sourceMappingURL=Prints.module.css.map */

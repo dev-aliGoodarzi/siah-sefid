@@ -1,0 +1,167 @@
+.gamePage {
+  width: 80vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+  left: 10vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.gamePage h3 {
+  direction: rtl;
+  font-size: 1.45vw;
+  text-align: justify;
+}
+
+.gamePage .gameNewsItem {
+  width: 90%;
+  height: 20vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1vw;
+  margin: 1vw;
+  background-color: transparent;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 1px 1px 5px #888888;
+          box-shadow: 1px 1px 5px #888888;
+  border-radius: 1vw;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.gamePage .gameNewsItem .absoluteItem {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: transparent;
+  opacity: 0.3;
+  border-radius: 1vw;
+}
+
+.gamePage .gameNewsItem:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.gamePage .gameNewsItem:hover .absoluteItem {
+  background-color: #181818;
+}
+
+.gamePage .gameNewsItem .picContainer {
+  width: 20%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gamePage .gameNewsItem .contentContainer {
+  width: 60%;
+  text-align: right;
+}
+
+.gamePage .gameNewsItem .writenBy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+@media (min-width: 1px) and (max-width: 640px) {
+  .gamePage {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    right: 0;
+    left: 0;
+  }
+  .gamePage h3 {
+    width: 90%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    font-size: 4vw;
+  }
+  .gamePage .gameNewsItem {
+    width: 90%;
+    height: 40vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 3vw;
+  }
+  .gamePage .gameNewsItem .picContainer {
+    width: 100%;
+    height: 60%;
+    border-radius: 3vw;
+  }
+  .gamePage .gameNewsItem .contentContainer {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .gamePage .gameNewsItem .contentContainer .newsName {
+    font-size: 3vw;
+  }
+  .gamePage .gameNewsItem .contentContainer .writenBy {
+    font-size: 2.8vw;
+    padding-top: 2vh;
+  }
+}
+/*# sourceMappingURL=GamePage.module.css.map */

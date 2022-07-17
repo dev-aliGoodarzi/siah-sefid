@@ -1,0 +1,45 @@
+.sendArticlesContainer {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10vh;
+  font-size: 2vw;
+}
+
+.sendArticlesContainer mark {
+  background-color: #ccc;
+  padding: 0.5vh;
+  margin: 1vw;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.sendArticlesContainer mark:hover {
+  background-color: transparent;
+  color: #000 !important;
+}
+
+.sendArticlesContainer mark a {
+  color: navy !important;
+  font-size: 110%;
+}
+
+.sendArticlesContainer mark a:hover {
+  background-color: transparent;
+}
+/*# sourceMappingURL=SendArticles.module.css.map */

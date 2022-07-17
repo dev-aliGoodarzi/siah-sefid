@@ -1,0 +1,58 @@
+.comnments {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.comnments .pearsonCommentContainer {
+  width: 90%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+  right: 5%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: rgba(88, 156, 156, 0.541);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1px) and (max-width: 800px) {
+  .comnments {
+    width: 95vw;
+    right: -5vw;
+  }
+  .comnments .pearsonCommentContainer {
+    width: 100%;
+    right: 0;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=Comment.module.css.map */

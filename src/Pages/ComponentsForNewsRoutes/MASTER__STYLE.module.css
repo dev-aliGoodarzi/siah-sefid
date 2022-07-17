@@ -1,0 +1,102 @@
+.newsContent {
+  width: 80%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 5vh;
+  position: relative;
+  left: 10%;
+  direction: rtl;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newsContent p {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  direction: rtl;
+  text-align: right;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.newsContent h1,
+.newsContent h2,
+.newsContent h3,
+.newsContent h4,
+.newsContent h5,
+.newsContent h6 {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.newsContent img {
+  width: 80%;
+  height: 70vh;
+  position: relative;
+}
+
+.newsContent .borderRight {
+  border-right: 0.5vw solid red;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1vw;
+  background-color: rgba(204, 204, 204, 0.493);
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.newsContent .borderRight p {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+  .newsContent {
+    width: 85vw;
+    left: 7.5%;
+  }
+  .newsContent p {
+    font-size: 0.8rem;
+    line-height: 6vh;
+  }
+  .newsContent h1,
+  .newsContent h2,
+  .newsContent h3,
+  .newsContent h4,
+  .newsContent h5,
+  .newsContent h6 {
+    width: 100%;
+  }
+  .newsContent h2 {
+    font-size: 5vw;
+  }
+  .newsContent img {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    right: 0;
+  }
+}
+/*# sourceMappingURL=MASTER__STYLE.module.css.map */

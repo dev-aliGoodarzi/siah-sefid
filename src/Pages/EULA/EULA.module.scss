@@ -1,0 +1,26 @@
+.eulaContainer {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 3vw;
+  h1 {
+    width: 100%;
+    height: max-content;
+    direction: rtl;
+    font : {
+      size: 1.6vw;
+    }
+  }
+  p {
+    direction: rtl;
+    padding: 0.5vw;
+    margin-top: 4vh;
+    mark {
+      color: red;
+      background-color: transparent;
+    }
+  }
+}

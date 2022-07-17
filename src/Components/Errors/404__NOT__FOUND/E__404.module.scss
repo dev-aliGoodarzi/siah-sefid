@@ -1,0 +1,78 @@
+.notFound {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    width: 100%;
+    height: max-content;
+    padding: {
+      top: 3vw;
+      bottom: 3vw;
+    }
+    text-align: center;
+    font : {
+      size: 3vw;
+    }
+  }
+  img {
+    width: 50%;
+    height: 30%;
+    animation: sssssf 1s ease 0s infinite alternate linear forwards;
+    --webkit-animation-name: sssssf;
+    --webkit-animation-direction: 1s;
+    --webkit-animation-timing-function: ease-in-out;
+    --webkit-animation-delay: 0;
+    --webkit-animation-iteration-count: infinite;
+    --webkit-animation-fill-mode: forwards;
+    position: relative;
+  }
+  padding: {
+    bottom: 15vh;
+  }
+  .itemsContainer {
+    width: 30%;
+    height: 5vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    a,
+    button {
+      width: 10vw;
+      border: 2px solid #63f;
+      border-radius: 2vw;
+      transition: all 1s ease;
+      &:hover {
+        border-color: transparent;
+        background-color: #0af;
+      }
+      font : {
+        size: 1.5vw;
+      }
+      text-align: center;
+    }
+    button {
+      background-color: transparent;
+    }
+  }
+}
+
+@keyframes sssssf {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 200px;
+  }
+  50% {
+    top: 100px;
+  }
+  75% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}

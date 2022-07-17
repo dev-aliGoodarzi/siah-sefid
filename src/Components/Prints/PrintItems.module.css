@@ -1,0 +1,23 @@
+.printCustomConntainer {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.printCustomConntainer h1 {
+  width: 90%;
+  text-align: right;
+  font-size: 4.4rem;
+}
+/*# sourceMappingURL=PrintItems.module.css.map */

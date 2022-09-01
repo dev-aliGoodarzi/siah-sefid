@@ -6,6 +6,11 @@ import { Link } from "react-router-dom";
 //React
 //Images
 import {
+  mobileItem10__pic1,
+  mobileItem11__pic1,
+  mobileItem12__pic1,
+  mobileItem13__pic1,
+  mobileItem14__pic1,
   mobileItem1__pic1,
   mobileItem2__pic1,
   mobileItem3__pic1,
@@ -51,6 +56,7 @@ class MobilePage extends Component {
 
         routeToNavigate: "mobile-item-2",
       },
+      //SEC
       {
         id: "mobile-item-3",
         newsName: "آیا استفاده از گوشی هنگام شارژ کردن خطرناکه ؟",
@@ -60,7 +66,7 @@ class MobilePage extends Component {
         writeBy: "علی گودرزی",
         routeToNavigate: "mobile-item-3",
       },
-      /////// SEC
+      //Third
       {
         id: "mobile-item-4",
         newsName: "اینفرارد گوشی موبایل چیست و چه کاربردی داره ؟",
@@ -70,6 +76,7 @@ class MobilePage extends Component {
         writeBy: "یونس عسگری ",
         routeToNavigate: "mobile-item-4",
       },
+      // Fourth
       {
         id: "mobile-item-5",
         newsName: "حسگر مجاورتی گوشی موبایل چیست و چه کاربردی داره ؟",
@@ -79,7 +86,7 @@ class MobilePage extends Component {
         writeBy: " حسین سیاهوشی ",
         routeToNavigate: "mobile-item-5",
       },
-      //Third
+      //Five
       {
         id: "mobile-item-6",
         newsName: "فرق حافظه رم گوشی و کارت حافظه گوشی",
@@ -90,6 +97,7 @@ class MobilePage extends Component {
 
         routeToNavigate: "mobile-item-6",
       },
+      //SIX
       {
         id: "mobile-item-7",
         newsName: "فرق سری A و M گوشی های سامسونگ چیست؟",
@@ -99,7 +107,7 @@ class MobilePage extends Component {
         writeBy: "علی اصغر صفری",
         routeToNavigate: "mobile-item-6",
       },
-      // Fourth
+      //SEVEN
       {
         id: "mobile-item-8",
         newsName: "فرق زوم دیجیتال و زوم اپتیکال چیست ؟",
@@ -109,6 +117,7 @@ class MobilePage extends Component {
         writeBy: "یونس عسگری",
         routeToNavigate: "mobile-item-8",
       },
+      //EIGHT
       {
         id: "mobile-item-9",
         newsName: "فلت گوشی چیست ؟ کاربرد و انواع کابل فلت",
@@ -118,15 +127,64 @@ class MobilePage extends Component {
         writeBy: "امیررضا خلجی ",
         routeToNavigate: "mobile-item-9",
       },
-      //Five
+      //NINE
       {
         id: "mobile-item-10",
-        newsName: "فلت گوشی چیست ssssssss؟ کاربرد و انواع کابل فلت",
-        newsImage: mobileItem5__pic2,
+        newsName: "فلت گوشی چیست ؟ کاربرد و انواع کابل فلت",
+        newsImage: mobileItem10__pic1,
         newsTextContent: "کابل فلت چیه ؟",
         writeIn: "2022/04/18",
         writeBy: "علی گودرزی",
         routeToNavigate: "mobile-item-10",
+      },
+      //TEN
+      {
+        id: "mobile-item-11",
+        newsName: `
+            فرق نسخه ( ورژن ) و Type در استاندارد USB
+        `,
+        newsImage: mobileItem11__pic1,
+        newsTextContent: `
+        تفاوت ورژن و Type در استاندارد USB
+        `,
+        writeIn: "2022/04/18",
+        writeBy: "علی گودرزی",
+        routeToNavigate: "mobile-item-11",
+      },
+      {
+        id: "mobile-item-12",
+        newsName: `
+            USB چیست ؟ USB 2.0 و USB 3.0 چه فرقی با هم دارند ؟
+            `,
+        newsImage: mobileItem12__pic1,
+        newsTextContent: `
+        USB چیست ؟`,
+        writeIn: "2022/04/18",
+        writeBy: "علی گودرزی",
+        routeToNavigate: "mobile-item-12",
+      },
+      {
+        id: "mobile-item-13",
+        newsName: `
+        شارژ اولیه گوشی موبایل و تبلت
+        `,
+        newsImage: mobileItem13__pic1,
+        newsTextContent: `
+        آیا شارژ اولیه نیاز است ؟`,
+        writeIn: "2022/04/18",
+        writeBy: "علی گودرزی",
+        routeToNavigate: "mobile-item-14",
+      },
+      {
+        id: "mobile-item-14",
+        newsName: `
+            تفاوت چیپست و پردازنده اصلی در گوشی
+        `,
+        newsImage: mobileItem14__pic1,
+        newsTextContent: `فرقشون دقیقا چیه ؟`,
+        writeIn: "2022/04/18",
+        writeBy: "علی گودرزی",
+        routeToNavigate: "mobile-item-14",
       },
     ],
   };

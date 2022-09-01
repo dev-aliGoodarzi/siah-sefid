@@ -33,7 +33,6 @@ class ComputerItem11 extends Component {
             <a
               title="رم داینمیک"
               href="https://en.wikipedia.org/wiki/Dynamic_random-access_memory"
-              target="_blank"
               rel="noreferrer"
             >
               DRAM{" "}

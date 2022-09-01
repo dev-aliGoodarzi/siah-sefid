@@ -20,24 +20,7 @@ import styles from "../../MASTER__STYLE.module.css";
 
 class MobileNews7 extends Component {
   state = {
-    commentsArray: [
-      {
-        id: "m6-1",
-        name: "علی",
-        comment:
-          "من خودم پاور بانک دارم ، خیلی مطالب شما مفید و کاربردیه ، اگر بخوام به کسی پیشنهاد بدم چطور بخره ، حتما سایت شما رو معرفی میکنم",
-      },
-      {
-        id: "m6-2",
-        name: "آرتمیس",
-        comment: "خیلی مفید بود ، تشکر",
-      },
-      {
-        id: "m6-3",
-        name: "طاهره",
-        comment: "خیلی خوب توضیح دادین ، ممنون",
-      },
-    ],
+    commentsArray: [],
   };
   componentDidMount() {
     if (window.innerWidth < 500) {

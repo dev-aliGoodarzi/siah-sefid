@@ -46,6 +46,17 @@ import MobileNews5 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews5
 import MobileNews6 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews6/MobileNews6";
 import MobileNews7 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews7/MobileNews7";
 import MobileNews8 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews8/MobileNews8";
+import MobileNews9 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews9/MobileNews9";
+import MobileNews10 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews10/MobileNews10";
+import MobileNews11 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews11/MobileNews11";
+import MobileNews12 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews12/MobileNews12";
+import MobileNews13 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews13/MobileNews13";
+import MobileNews14 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews14/MobileNews14";
+import MobileNews15 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews15/MobileNews15";
+import MobileNews16 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews16/MobileNews16";
+import MobileNews17 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews17/MobileNews17";
+import MobileNews19 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews19/MobileNews19";
+import MobileNews20 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews20/MobileNews20";
 /* ************_ Mobile Items _************ */
 /* ************_ Game Items _************ */
 import GameItem1 from "./Pages/ComponentsForNewsRoutes/GameNews/GameItem1/GameItem1";
@@ -54,9 +65,6 @@ import GameItem3 from "./Pages/ComponentsForNewsRoutes/GameNews/GameItem3/GameIt
 import GameItem4 from "./Pages/ComponentsForNewsRoutes/GameNews/GameItem4/GameItem4";
 import GameItem5 from "./Pages/ComponentsForNewsRoutes/GameNews/GameItem5/GameItem5";
 /* ************_ Game Items _************ */
-/* ************_ Hardware Items _************ */
-
-/* ************_ Hardware Items _************ */
 /* ************_ Print Items _************ */
 import Prints from "./Components/Prints/Prints";
 import PrintOne from "./Pages/PrintOne/PrintOne";
@@ -71,9 +79,6 @@ import PrintSix from "./Pages/PrintSix/PrintSix";
 import MainHeader from "./Components/MainHeader/MainHeader";
 import TopHeader from "./Components/TopHeader/TopHeader";
 import Footer from "./Components/Footer/Footer";
-import MobileNews9 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews9/MobileNews9";
-import MobileNews10 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews10/MobileNews10";
-import MobileNews11 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews11/MobileNews11";
 /* ************_ Components _************ */
 
 class App extends Component {
@@ -191,6 +196,42 @@ class App extends Component {
       {
         path: "/mobile-item-11",
         element: <MobileNews11 />,
+      },
+      {
+        path: "/mobile-item-12",
+        element: <MobileNews12 />,
+      },
+      {
+        path: "/mobile-item-13",
+        element: <MobileNews13 />,
+      },
+      {
+        path: "/mobile-item-14",
+        element: <MobileNews14 />,
+      },
+      {
+        path: "/mobile-item-15",
+        element: <MobileNews15 />,
+      },
+      {
+        path: "/mobile-item-16",
+        element: <MobileNews16 />,
+      },
+      {
+        path: "/mobile-item-17",
+        element: <MobileNews17 />,
+      },
+      {
+        path: "/mobile-item-18",
+        element: <MobileNews19 />,
+      },
+      {
+        path: "/mobile-item-19",
+        element: <MobileNews19 />,
+      },
+      {
+        path: "/mobile-item-20",
+        element: <MobileNews20 />,
       },
     ],
     gameItemsRedirect: [

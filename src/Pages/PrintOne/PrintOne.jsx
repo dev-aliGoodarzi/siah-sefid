@@ -11,19 +11,12 @@ import {
   computerItem1__pic1,
   computerItem2__pic1,
   computerItem3__pic1,
-  computerItem4__pic1,
-  computerItem5__pic1,
-  computerItem6__pic1,
   gameItem1__pic1,
   gameItem2__pic1,
   gameItem3__pic1,
-  gameItem4__pic1,
-  gameItem5__pic1,
   mobileItem1__pic1,
   mobileItem2__pic1,
   mobileItem3__pic1,
-  mobileItem4__pic1,
-  mobileItem5__pic2,
 } from "../../Components/NewsImage/NewsImage";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 import { Fade } from "react-reveal";
@@ -82,7 +75,7 @@ class PrintOne extends Component {
       },
       {
         id: "mobile-item-3",
-        newsTextContent: "آیا استفاده از گوشی هنگام شارژ کردن خطرناکه ؟",
+        newsName: "آیا استفاده از گوشی هنگام شارژ کردن خطرناکه ؟",
         newsImage: mobileItem3__pic1,
         newsTextContent: "آیا واقعا خطرناکه ؟",
         writeIn: "2022/04/18",

@@ -165,6 +165,19 @@ import mobileItem9__pic4 from "../../images/RoutesImages/mobile/mobileItem9/pic4
 import mobileItem9__pic5 from "../../images/RoutesImages/mobile/mobileItem9/pic5.jpg";
 import mobileItem9__pic6 from "../../images/RoutesImages/mobile/mobileItem9/pic6.jpg";
 
+import mobileItem10__pic1 from "../../images/RoutesImages/mobile/mobileItem10/pic1.jpg";
+
+import mobileItem11__pic1 from "../../images/RoutesImages/mobile/mobileItem11/pic1.jpg";
+import mobileItem11__pic2 from "../../images/RoutesImages/mobile/mobileItem11/pic2.jpg";
+import mobileItem11__pic3 from "../../images/RoutesImages/mobile/mobileItem11/pic3.jpg";
+
+import mobileItem12__pic1 from "../../images/RoutesImages/mobile/mobileItem12/pic1.jpg";
+
+import mobileItem13__pic1 from "../../images/RoutesImages/mobile/mobileItem13/pic1.jpg";
+import mobileItem13__pic2 from "../../images/RoutesImages/mobile/mobileItem13/pic2.jpg";
+
+import mobileItem14__pic1 from "../../images/RoutesImages/mobile/mobileItem14/pic1.jpg";
+
 // MOBILE
 // *************
 //GAME
@@ -319,6 +332,14 @@ export {
   mobileItem9__pic4,
   mobileItem9__pic5,
   mobileItem9__pic6,
+  mobileItem10__pic1,
+  mobileItem11__pic1,
+  mobileItem11__pic2,
+  mobileItem11__pic3,
+  mobileItem12__pic1,
+  mobileItem13__pic1,
+  mobileItem13__pic2,
+  mobileItem14__pic1,
   // MOBILE
 
   // GAME

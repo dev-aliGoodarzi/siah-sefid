@@ -19,22 +19,7 @@ import styles from "../../MASTER__STYLE.module.css";
 class MobileNews8 extends Component {
   state = {
     commentsArray: [
-      {
-        id: "m6-1",
-        name: "علی",
-        comment:
-          "من خودم پاور بانک دارم ، خیلی مطالب شما مفید و کاربردیه ، اگر بخوام به کسی پیشنهاد بدم چطور بخره ، حتما سایت شما رو معرفی میکنم",
-      },
-      {
-        id: "m6-2",
-        name: "آرتمیس",
-        comment: "خیلی مفید بود ، تشکر",
-      },
-      {
-        id: "m6-3",
-        name: "طاهره",
-        comment: "خیلی خوب توضیح دادین ، ممنون",
-      },
+      
     ],
   };
   componentDidMount() {
@@ -122,7 +107,7 @@ class MobileNews8 extends Component {
           <p>
             نکته مهم دیگه در مورد زوم دیجیتال اینه که جدیدا شرکت های سازنده
             دوربین های دیجیتال مثل{" "}
-            <a href="http://www.sony.com" target="_blank" rel="noreferrer">
+            <a href="http://www.sony.com" rel="noreferrer">
               Sony{" "}
             </a>
             ، تکنولوژی جدیدی رو با عنوان زوم دیجیتال هوشمند طراحی کردن به این

@@ -43,7 +43,6 @@ class ComputerItem10 extends Component {
             <a
               title="سیگنال"
               href="http://en.wikipedia.org/wiki/Signal_(electrical_engineering)"
-              target="_blank"
               rel="noreferrer"
               style={{ color: "red" }}
             >
@@ -85,7 +84,6 @@ class ComputerItem10 extends Component {
             <a
               title="فیدبک"
               href="http://en.wikipedia.org/wiki/Feedback"
-              target="_blank"
               rel="noreferrer"
             >
               فیدبک{" "}
@@ -166,7 +164,6 @@ class ComputerItem10 extends Component {
             <a
               title="آی سی 555"
               href="http://en.wikipedia.org/wiki/555_timer_IC"
-              target="_blank"
               rel="noreferrer"
             >
               آی سی ۵۵۵

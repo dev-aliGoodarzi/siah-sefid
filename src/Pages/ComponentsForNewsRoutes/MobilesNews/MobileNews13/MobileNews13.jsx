@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Fade } from "react-reveal";
-import { Link } from "react-router-dom";
 import ReactTooltip from "react-tooltip";
 import Comments from "../../../../Components/Comments/Comments";
 

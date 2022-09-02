@@ -19,6 +19,7 @@ class MainHeader extends Component {
   }
   state = {
     night: false,
+    currLocation: "/",
   };
   makeHeaderHidden = () => {
     this.hamburgerMenuContentsRef.current.style.visibility = "hidden";
@@ -79,13 +80,34 @@ class MainHeader extends Component {
       >
         <div className={styles.left}>
           <div className={styles.linksContainer}>
-            <Link to="/">خانه</Link>
+            <Link
+              to="/"
+              style={{
+                background:
+                  this.state.currLocation === "/" ? "#5603fc" : "#fff",
+              }}
+              onClick={() => {
+                this.setState({
+                  ...this.state,
+                  currLocation: "/",
+                });
+              }}
+            >
+              خانه
+            </Link>
             <Link
               to="/computer-news"
               style={{
-                background: window.location.href.includes("/computer-news")
-                  ? "#5603fc"
-                  : "#fff",
+                background:
+                  this.state.currLocation === "computer-news"
+                    ? "#5603fc"
+                    : "#fff",
+              }}
+              onClick={() => {
+                this.setState({
+                  ...this.state,
+                  currLocation: "computer-news",
+                });
               }}
             >
               کامپیوتر
@@ -94,9 +116,16 @@ class MainHeader extends Component {
             <Link
               to="/mobile-news"
               style={{
-                background: window.location.href.includes("/mobile-news")
-                  ? "#5603fc"
-                  : "#fff",
+                background:
+                  this.state.currLocation === "mobile-news"
+                    ? "#5603fc"
+                    : "#fff",
+              }}
+              onClick={() => {
+                this.setState({
+                  ...this.state,
+                  currLocation: "mobile-news",
+                });
               }}
             >
               موبایل
@@ -104,9 +133,14 @@ class MainHeader extends Component {
             <Link
               to="/game-news"
               style={{
-                background: window.location.href.includes("/game-news")
-                  ? "#5603fc"
-                  : "#fff",
+                background:
+                  this.state.currLocation === "game-news" ? "#5603fc" : "#fff",
+              }}
+              onClick={() => {
+                this.setState({
+                  ...this.state,
+                  currLocation: "game-news",
+                });
               }}
             >
               بازی
@@ -114,9 +148,14 @@ class MainHeader extends Component {
             <Link
               to="/prints"
               style={{
-                background: window.location.href.includes("/prints")
-                  ? "#5603fc"
-                  : "#fff",
+                background:
+                  this.state.currLocation === "prints" ? "#5603fc" : "#fff",
+              }}
+              onClick={() => {
+                this.setState({
+                  ...this.state,
+                  currLocation: "prints",
+                });
               }}
             >
               چاپ ها{" "}

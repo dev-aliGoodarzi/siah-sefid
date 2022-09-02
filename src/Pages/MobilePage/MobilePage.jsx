@@ -29,10 +29,6 @@ import styles from "./MobilePage.module.css";
 import Fade from "react-reveal/Fade.js";
 //Modules
 class MobilePage extends Component {
-  constructor() {
-    super();
-    this.mobilePageRef = React.createRef();
-  }
   state = {
     mobilePage: [
       //First
@@ -188,16 +184,12 @@ class MobilePage extends Component {
     ],
   };
   componentDidMount() {
-    if (window.innerWidth < 500) {
-      window.scrollTo({ top: 127 });
-    } else {
-      window.scrollTo({ top: 50 });
-    }
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
   render() {
     return (
       <Fade left>
-        <div className={styles.mobilePage} ref={this.mobilePageRef}>
+        <div className={styles.mobilePage}>
           {this.state.mobilePage.map((item) => {
             return (
               <Link

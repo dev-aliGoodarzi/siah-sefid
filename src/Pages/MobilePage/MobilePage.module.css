@@ -25,6 +25,10 @@
 }
 
 .mobilePage h3 {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   direction: rtl;
   font-size: 1.45vw;
   text-align: justify;

@@ -87,11 +87,6 @@
   transition: 0.3s ease all;
 }
 
-.MainHeader .left .linksContainer a:hover {
-  background-color: #000 !important;
-  color: #fff !important;
-}
-
 .MainHeader .left .hamburgerContainer {
   width: 3vh;
   height: 3vh;

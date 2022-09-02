@@ -23,28 +23,28 @@ class CommentsInput extends Component {
     isValidComment: false,
   };
   ValidateEmail(emailText) {
-    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var mailformat = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
     if (emailText.match(mailformat)) {
-      return this.setState({ isValidEmail: true });
+      return this.setState({ ...this.state,isValidEmail: true });
     } else {
       this.commentEmailRef.current.focus();
-      return this.setState({ isValidEmail: false });
+      return this.setState({ ...this.state, isValidEmail: false });
     }
   }
   validateName(nameText) {
-    if (nameText.length > 3) {
-      return this.setState({ isValidName: true });
+    if (nameText.length > 2) {
+      return this.setState({...this.state, isValidName: true });
     } else {
       this.nameInputRef.current.focus();
-      return this.setState({ isValidName: false });
+      return this.setState({ ...this.state,isValidName: false });
     }
   }
   validateComment(commentText) {
     if (commentText.length > 5) {
-      return this.setState({ isValidComment: true });
+      return this.setState({ ...this.state,isValidComment: true });
     } else {
       this.commentInputRef.current.focus();
-      return this.setState({ isValidComment: false });
+      return this.setState({ ...this.state,isValidComment: false });
     }
   }
   render() {

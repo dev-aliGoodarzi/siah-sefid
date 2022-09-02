@@ -10,13 +10,9 @@ import styles from "./NewestContents.module.css";
 //CSS
 //Modules
 import {
-  mobileItem3__pic1,
   computerItem2__pic1,
   computerItem1__pic1,
-  mobileItem8__pic1,
   mobileItem9__pic1,
-  mobileItem11__pic1,
-  mobileItem11__pic2,
   mobileItem13__pic1,
   mobileItem14__pic1,
 } from "../NewsImage/NewsImage";

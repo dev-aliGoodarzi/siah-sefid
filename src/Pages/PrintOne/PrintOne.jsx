@@ -16,7 +16,6 @@ import {
   gameItem3__pic1,
   mobileItem1__pic1,
   mobileItem2__pic1,
-  mobileItem3__pic1,
 } from "../../Components/NewsImage/NewsImage";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 import { Fade } from "react-reveal";

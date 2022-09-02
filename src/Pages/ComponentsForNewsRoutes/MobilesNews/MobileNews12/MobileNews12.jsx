@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Fade } from "react-reveal";
-import { Link } from "react-router-dom";
 import ReactTooltip from "react-tooltip";
 import Comments from "../../../../Components/Comments/Comments";
 
@@ -16,9 +15,7 @@ import styles from "../../MASTER__STYLE.module.css";
 
 class MobileNews12 extends Component {
   state = {
-    commentsArray: [
-  
-    ],
+    commentsArray: [],
   };
   componentDidMount() {
     if (window.innerWidth < 500) {
@@ -35,25 +32,23 @@ class MobileNews12 extends Component {
     return (
       <Fade bottom>
         <div className={styles.newsContent}>
-          <h2>
-            USB چیست ؟ USB 2.0 و USB 3.0 چه فرقی با هم دارند ؟
-            </h2>
+          <h2>USB چیست ؟ USB 2.0 و USB 3.0 چه فرقی با هم دارند ؟</h2>
           <h2> USB چیست ؟</h2>
           <p>
             <a href="http://fa.wikipedia.org/wiki/%DB%8C%D9%88%D8%A7%D8%B3%E2%80%8C%D8%A8%DB%8C">
               USB{" "}
             </a>
             برگرفته از حروف ابتدایی ۳ کلمه{" "}
-            <span style="text-decoration: underline;">U</span>niversal{" "}
-            <span style="text-decoration: underline;">S</span>erial{" "}
-            <span style="text-decoration: underline;">B</span>us می باشد که به
-            معنی گذرگاه عمومی سریال است . از این استاندارد برای رد و بدل اطلاعات
-            بین دستگاه های جانبی و کامپوتر استفاده می شود . یو اس بی تا به امروز
-            در ۳ ورژن مختلف ارائه شده که USB 1.0 ، USB 2.0 و USB 3.0 نام گذاری
-            شده اند . یو اس بی ۲ برای ارتقای ۱ و یو اس بی ۳ برای ارتقای ۲ ارائه
-            شده اند . به دلیل ماهیت یو اس بی که تبادل اطلاعات می باشد ، در ورژن
-            آخر روی سرعت انتقال داده ها تمرکز شده و مهمترین تفاوت بین یو اس بی ۳
-            و ۲ همین مسئله می باشد .
+            <span style={{ textDecoration: "underline" }}>U</span>niversal{" "}
+            <span style={{ textDecoration: "underline" }}>S</span>erial{" "}
+            <span style={{ textDecoration: "underline" }}>B</span>us می باشد که
+            به معنی گذرگاه عمومی سریال است . از این استاندارد برای رد و بدل
+            اطلاعات بین دستگاه های جانبی و کامپوتر استفاده می شود . یو اس بی تا
+            به امروز در ۳ ورژن مختلف ارائه شده که USB 1.0 ، USB 2.0 و USB 3.0
+            نام گذاری شده اند . یو اس بی ۲ برای ارتقای ۱ و یو اس بی ۳ برای
+            ارتقای ۲ ارائه شده اند . به دلیل ماهیت یو اس بی که تبادل اطلاعات می
+            باشد ، در ورژن آخر روی سرعت انتقال داده ها تمرکز شده و مهمترین تفاوت
+            بین یو اس بی ۳ و ۲ همین مسئله می باشد .
           </p>
           <h2>سرعت انتقال داده USB 2.0</h2>
           <img src="" alt="" data-tip="لوگو USB 2.0" />

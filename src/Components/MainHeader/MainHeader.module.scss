@@ -26,16 +26,21 @@
       justify-content: space-between;
       align-items: center;
       a {
-        width: max-content;
+        width: 8rem;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 50% !important;
-        color: #fff !important ;
+        color: #000;
         padding: 1vw;
         margin: 3px !important;
-        background-color: rgba(255, 68, 68, 0.933) !important;
-        border-radius: 1rem;
+        background-color: rgba(255, 255, 255, 0.933);
+        border-radius: 0.8rem;
+        transition: 0.3s ease all;
+        &:hover {
+          background-color: #000 !important;
+          color: #fff !important;
+        }
       }
     }
     .hamburgerContainer {

@@ -80,11 +80,47 @@ class MainHeader extends Component {
         <div className={styles.left}>
           <div className={styles.linksContainer}>
             <Link to="/">خانه</Link>
-            <Link to="/computer-news">کامپیوتر</Link>
+            <Link
+              to="/computer-news"
+              style={{
+                background: window.location.href.includes("/computer-news")
+                  ? "#5603fc"
+                  : "#fff",
+              }}
+            >
+              کامپیوتر
+            </Link>
             {/* <Link to="/newest-content">سخت افزار </Link> */}
-            <Link to="/mobile-news">موبایل</Link>
-            <Link to="/game-news">بازی</Link>
-            <Link to="/prints">چاپ ها </Link>
+            <Link
+              to="/mobile-news"
+              style={{
+                background: window.location.href.includes("/mobile-news")
+                  ? "#5603fc"
+                  : "#fff",
+              }}
+            >
+              موبایل
+            </Link>
+            <Link
+              to="/game-news"
+              style={{
+                background: window.location.href.includes("/game-news")
+                  ? "#5603fc"
+                  : "#fff",
+              }}
+            >
+              بازی
+            </Link>
+            <Link
+              to="/prints"
+              style={{
+                background: window.location.href.includes("/prints")
+                  ? "#5603fc"
+                  : "#fff",
+              }}
+            >
+              چاپ ها{" "}
+            </Link>
           </div>
           <div
             className={styles.hamburgerContainer}

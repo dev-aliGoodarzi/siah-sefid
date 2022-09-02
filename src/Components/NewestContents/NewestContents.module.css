@@ -45,7 +45,7 @@
   width: 100%;
   height: 100%;
   background-color: #000;
-  opacity: 0.2;
+  opacity: 0.4;
   z-index: 0;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
@@ -112,7 +112,7 @@
           justify-content: flex-end;
   -webkit-transition: 1s all ease;
   transition: 1s all ease;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .newestContents .right .dateAndWrite {
@@ -222,7 +222,7 @@
   text-align: right;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .newestContents .left .top .left .dateAndWrite {
@@ -534,7 +534,7 @@
 #rightBigItem:hover .dateAndWrite {
   -webkit-transition: 1s all ease;
   transition: 1s all ease;
-  background-color: rgba(155, 48, 182, 0.7);
+  background-color: rgba(10, 1, 12, 0.9);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -546,11 +546,11 @@
           justify-content: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 0.5rem;
+  padding: 0.1rem;
   border-radius: 2rem;
   width: 90%;
   left: 5%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #fff;
   bottom: 25%;
 }

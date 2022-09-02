@@ -67,9 +67,7 @@
 }
 
 .MainHeader .left .linksContainer a {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  width: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,11 +78,18 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 50% !important;
-  color: #fff !important;
+  color: #000;
   padding: 1vw;
   margin: 3px !important;
-  background-color: rgba(255, 68, 68, 0.933) !important;
-  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.933);
+  border-radius: 0.8rem;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.MainHeader .left .linksContainer a:hover {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
 .MainHeader .left .hamburgerContainer {

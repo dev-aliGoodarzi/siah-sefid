@@ -14,7 +14,11 @@ import {
   computerItem2__pic1,
   computerItem1__pic1,
   mobileItem8__pic1,
-  computerItem4__pic1,
+  mobileItem9__pic1,
+  mobileItem11__pic1,
+  mobileItem11__pic2,
+  mobileItem13__pic1,
+  mobileItem14__pic1,
 } from "../NewsImage/NewsImage";
 import { Link } from "react-router-dom";
 //Modules
@@ -28,33 +32,38 @@ class NewestContents extends Component {
   state = {
     news: [
       {
-        id: "computer-item-4",
-        name: "بازی با سیستم خوبه یا بد ؟",
-        image: computerItem4__pic1,
-        newsTextContent: "آیا بازی سرای سیستم ضرر دارد ؟",
-        writeIn: "2022/04/18",
-        writeBy: "علی گودرزی",
-        routeToNavigate: "computer-item-4",
-        about: "کامپیوتر",
-      },
-      {
-        id: "mobile-item-8",
-        name: "فرق زوم دیجیتال و زوم اپتیکال چیست ؟",
-        image: mobileItem8__pic1,
-        newsTextContent: "مقایسه زوم دیجیتال و زوم اپتیکال",
-        writeIn: "2022/04/18",
-        writeBy: "یونس عسگری",
-        routeToNavigate: "mobile-item-8",
+        id: "mobile-item-9",
+        name: "فلت گوشی چیست ؟ ",
+        image: mobileItem9__pic1,
+        newsTextContent: "کابل فلت چیه ؟",
+        writeIn: "2022/08/01",
+        writeBy: "امیررضا خلجی ",
+        routeToNavigate: "mobile-item-9",
         about: "موبایل",
       },
       {
-        id: "mobile-item-3",
-        name: "آیا استفاده از گوشی هنگام شارژ کردن خطرناکه ؟",
-        image: mobileItem3__pic1,
-        newsTextContent: "آیا واقعا خطرناکه ؟",
-        writeIn: "2022/05/06",
+        id: "mobile-item-13",
+        name: `
+        شارژ اولیه گوشی موبایل و تبلت
+        `,
+        image: mobileItem13__pic1,
+        newsTextContent: `
+        آیا شارژ اولیه نیاز است ؟`,
+        writeIn: "2022/08/29",
+        writeBy: "علی اصغر صفری",
+        routeToNavigate: "mobile-item-14",
+        about: "موبایل",
+      },
+      {
+        id: "mobile-item-14",
+        name: `
+            تفاوت چیپست و پردازنده اصلی 
+        `,
+        image: mobileItem14__pic1,
+        newsTextContent: `فرقشون دقیقا چیه ؟`,
+        writeIn: "2022/08/29",
         writeBy: "علی گودرزی",
-        routeToNavigate: "mobile-item-3",
+        routeToNavigate: "mobile-item-14",
         about: "موبایل",
       },
       {

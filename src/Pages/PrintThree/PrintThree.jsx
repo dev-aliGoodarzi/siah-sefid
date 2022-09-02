@@ -13,8 +13,7 @@ import {
   computerItem7__pic5,
   computerItem8__pic1,
   computerItem9__pic1,
-  mobileItem6__pic1,
-  mobileItem7__pic1,
+  mobileItem4__pic1,
 } from "../../Components/NewsImage/NewsImage";
 //Modules
 
@@ -51,23 +50,13 @@ class PrintThree extends Component {
     ],
     mobileItems: [
       {
-        id: "mobile-item-6",
-        newsName: "فرق حافظه رم گوشی و کارت حافظه گوشی",
-        newsImage: mobileItem6__pic1,
-        newsTextContent: "تفاوت حافظه RAM گوشی و کارت حافظه گوشی",
-        writeIn: "2022/04/18",
-        writeBy: "حسین سیاهوشی",
-
-        routeToNavigate: "mobile-item-6",
-      },
-      {
-        id: "mobile-item-7",
-        newsName: "فرق سری A و M گوشی های سامسونگ چیست؟",
-        newsImage: mobileItem7__pic1,
-        newsTextContent: "سری های سامسونگ",
-        writeIn: "2022/04/18",
-        writeBy: "علی اصغر صفری",
-        routeToNavigate: "mobile-item-6",
+        id: "mobile-item-4",
+        newsName: "اینفرارد گوشی موبایل چیست و چه کاربردی داره ؟",
+        newsImage: mobileItem4__pic1,
+        newsTextContent: "وظیفه سنسور مادون قرمز گوشی چیست ؟",
+        writeIn: "2022/05/23",
+        writeBy: "یونس عسگری ",
+        routeToNavigate: "mobile-item-4",
       },
     ],
     gameItems: [],

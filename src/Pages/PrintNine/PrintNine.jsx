@@ -10,32 +10,35 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 import {
-  computerItem10__pic1,
-  mobileItem5__pic2,
+  mobileItem10__pic1,
+  mobileItem11__pic1,
 } from "../../Components/NewsImage/NewsImage";
 //Modules
-class PrintFour extends Component {
+class PrintNine extends Component {
   state = {
-    computerItems: [
-      {
-        id: "computer-item-10",
-        newsName: "کلاک پالس یا پالس ساعت چیست ؟ ",
-        newsImage: computerItem10__pic1,
-        newsTextContent: "سیگنال کلاک چیست ؟",
-        writeIn: "2022/04/18",
-        writeBy: "علی مرادی تبار",
-        routeToNavigate: "computer-item-10",
-      },
-    ],
+    computerItems: [],
     mobileItems: [
       {
-        id: "mobile-item-5",
-        newsName: "حسگر مجاورتی گوشی موبایل چیست و چه کاربردی داره ؟",
-        newsImage: mobileItem5__pic2,
-        newsTextContent: "وظیفه سنسور مجاورت گوشی چیست ؟",
-        writeIn: "2022/06/06",
-        writeBy: " حسین سیاهوشی ",
-        routeToNavigate: "mobile-item-5",
+        id: "mobile-item-10",
+        newsName: "فلت گوشی چیست ؟ کاربرد و انواع کابل فلت",
+        newsImage: mobileItem10__pic1,
+        newsTextContent: "کابل فلت چیه ؟",
+        writeIn: "2022/08/15",
+        writeBy: "علی گودرزی",
+        routeToNavigate: "mobile-item-10",
+      },
+      {
+        id: "mobile-item-11",
+        newsName: `
+            فرق نسخه ( ورژن ) و Type در استاندارد USB
+        `,
+        newsImage: mobileItem11__pic1,
+        newsTextContent: `
+        تفاوت ورژن و Type در استاندارد USB
+        `,
+        writeIn: "2022/08/15",
+        writeBy: "علی گودرزی",
+        routeToNavigate: "mobile-item-11",
       },
     ],
     gameItems: [],
@@ -60,4 +63,4 @@ class PrintFour extends Component {
   }
 }
 
-export default PrintFour;
+export default PrintNine;

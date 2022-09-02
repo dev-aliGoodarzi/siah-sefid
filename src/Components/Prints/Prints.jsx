@@ -40,6 +40,22 @@ class Prints extends Component {
             <div className={styles.left}>چاپ ششم</div>
             <div className={styles.right}>جهت مشاهده کلیک کنید</div>
           </Link>
+          <Link to="/prints/printSeven">
+            <div className={styles.left}>چاپ هفتم</div>
+            <div className={styles.right}>جهت مشاهده کلیک کنید</div>
+          </Link>
+          <Link to="/prints/printEight">
+            <div className={styles.left}>چاپ هشتم</div>
+            <div className={styles.right}>جهت مشاهده کلیک کنید</div>
+          </Link>
+          <Link to="/prints/printNine">
+            <div className={styles.left}>چاپ نهم</div>
+            <div className={styles.right}>جهت مشاهده کلیک کنید</div>
+          </Link>
+          <Link to="/prints/printTen">
+            <div className={styles.left}>چاپ دهم</div>
+            <div className={styles.right}>جهت مشاهده کلیک کنید</div>
+          </Link>
         </div>
       </Fade>
     );

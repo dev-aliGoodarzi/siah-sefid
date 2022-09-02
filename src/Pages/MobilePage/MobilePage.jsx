@@ -41,7 +41,7 @@ class MobilePage extends Component {
         newsName: "پاوربانک تقلبی چجوریه ؟ تشخیص پاوربانک فیک",
         newsImage: mobileItem1__pic1,
         newsTextContent: "راهنمای تشخصی پاوربانک تقلبی",
-        writeIn: "2022/04/18",
+        writeIn: "2022/04/23",
         writeBy: "علی مرادی تبار",
 
         routeToNavigate: "mobile-item-1",
@@ -51,7 +51,7 @@ class MobilePage extends Component {
         newsName: "جک هدفون چیست ؟ معنی جک 3.5 میلی متری",
         newsImage: mobileItem2__pic1,
         newsTextContent: "بررسی ساختار جک هدفون",
-        writeIn: "2022/04/18",
+        writeIn: "2022/04/23",
         writeBy: "یونس عسگری",
 
         routeToNavigate: "mobile-item-2",
@@ -62,7 +62,7 @@ class MobilePage extends Component {
         newsName: "آیا استفاده از گوشی هنگام شارژ کردن خطرناکه ؟",
         newsImage: mobileItem3__pic1,
         newsTextContent: "آیا واقعا خطرناکه ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/05/07",
         writeBy: "علی گودرزی",
         routeToNavigate: "mobile-item-3",
       },
@@ -72,7 +72,7 @@ class MobilePage extends Component {
         newsName: "اینفرارد گوشی موبایل چیست و چه کاربردی داره ؟",
         newsImage: mobileItem4__pic1,
         newsTextContent: "وظیفه سنسور مادون قرمز گوشی چیست ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/05/23",
         writeBy: "یونس عسگری ",
         routeToNavigate: "mobile-item-4",
       },
@@ -82,7 +82,7 @@ class MobilePage extends Component {
         newsName: "حسگر مجاورتی گوشی موبایل چیست و چه کاربردی داره ؟",
         newsImage: mobileItem5__pic2,
         newsTextContent: "وظیفه سنسور مجاورت گوشی چیست ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/06/06",
         writeBy: " حسین سیاهوشی ",
         routeToNavigate: "mobile-item-5",
       },
@@ -92,9 +92,8 @@ class MobilePage extends Component {
         newsName: "فرق حافظه رم گوشی و کارت حافظه گوشی",
         newsImage: mobileItem6__pic1,
         newsTextContent: "تفاوت حافظه RAM گوشی و کارت حافظه گوشی",
-        writeIn: "2022/04/18",
+        writeIn: "2022/06/20",
         writeBy: "حسین سیاهوشی",
-
         routeToNavigate: "mobile-item-6",
       },
       //SIX
@@ -103,7 +102,7 @@ class MobilePage extends Component {
         newsName: "فرق سری A و M گوشی های سامسونگ چیست؟",
         newsImage: mobileItem7__pic1,
         newsTextContent: "سری های سامسونگ",
-        writeIn: "2022/04/18",
+        writeIn: "2022/07/04",
         writeBy: "علی اصغر صفری",
         routeToNavigate: "mobile-item-6",
       },
@@ -113,7 +112,7 @@ class MobilePage extends Component {
         newsName: "فرق زوم دیجیتال و زوم اپتیکال چیست ؟",
         newsImage: mobileItem8__pic1,
         newsTextContent: "مقایسه زوم دیجیتال و زوم اپتیکال",
-        writeIn: "2022/04/18",
+        writeIn: "2022/07/18",
         writeBy: "یونس عسگری",
         routeToNavigate: "mobile-item-8",
       },
@@ -123,7 +122,7 @@ class MobilePage extends Component {
         newsName: "فلت گوشی چیست ؟ کاربرد و انواع کابل فلت",
         newsImage: mobileItem9__pic1,
         newsTextContent: "کابل فلت چیه ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/08/01",
         writeBy: "امیررضا خلجی ",
         routeToNavigate: "mobile-item-9",
       },
@@ -133,11 +132,10 @@ class MobilePage extends Component {
         newsName: "فلت گوشی چیست ؟ کاربرد و انواع کابل فلت",
         newsImage: mobileItem10__pic1,
         newsTextContent: "کابل فلت چیه ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/08/15",
         writeBy: "علی گودرزی",
         routeToNavigate: "mobile-item-10",
       },
-      //TEN
       {
         id: "mobile-item-11",
         newsName: `
@@ -147,10 +145,11 @@ class MobilePage extends Component {
         newsTextContent: `
         تفاوت ورژن و Type در استاندارد USB
         `,
-        writeIn: "2022/04/18",
+        writeIn: "2022/08/15",
         writeBy: "علی گودرزی",
         routeToNavigate: "mobile-item-11",
       },
+      //TEN
       {
         id: "mobile-item-12",
         newsName: `
@@ -159,7 +158,7 @@ class MobilePage extends Component {
         newsImage: mobileItem12__pic1,
         newsTextContent: `
         USB چیست ؟`,
-        writeIn: "2022/04/18",
+        writeIn: "2022/08/29",
         writeBy: "علی گودرزی",
         routeToNavigate: "mobile-item-12",
       },
@@ -171,8 +170,8 @@ class MobilePage extends Component {
         newsImage: mobileItem13__pic1,
         newsTextContent: `
         آیا شارژ اولیه نیاز است ؟`,
-        writeIn: "2022/04/18",
-        writeBy: "علی گودرزی",
+        writeIn: "2022/08/29",
+        writeBy: "علی اصغر صفری",
         routeToNavigate: "mobile-item-14",
       },
       {
@@ -182,7 +181,7 @@ class MobilePage extends Component {
         `,
         newsImage: mobileItem14__pic1,
         newsTextContent: `فرقشون دقیقا چیه ؟`,
-        writeIn: "2022/04/18",
+        writeIn: "2022/08/29",
         writeBy: "علی گودرزی",
         routeToNavigate: "mobile-item-14",
       },

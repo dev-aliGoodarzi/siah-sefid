@@ -12,8 +12,7 @@ import {
   computerItem4__pic1,
   computerItem5__pic1,
   computerItem6__pic1,
-  mobileItem4__pic1,
-  mobileItem5__pic2,
+  mobileItem3__pic1,
 } from "../../Components/NewsImage/NewsImage";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 //Modules
@@ -51,22 +50,13 @@ class PrintsTwo extends Component {
     ],
     mobileItems: [
       {
-        id: "mobile-item-4",
-        newsName: "اینفرارد گوشی موبایل چیست و چه کاربردی داره ؟",
-        newsImage: mobileItem4__pic1,
-        newsTextContent: "وظیفه سنسور مادون قرمز گوشی چیست ؟",
-        writeIn: "2022/04/18",
-        writeBy: "یونس عسگری ",
-        routeToNavigate: "mobile-item-4",
-      },
-      {
-        id: "mobile-item-5",
-        newsName: "حسگر مجاورتی گوشی موبایل چیست و چه کاربردی داره ؟",
-        newsImage: mobileItem5__pic2,
-        newsTextContent: "وظیفه سنسور مجاورت گوشی چیست ؟",
-        writeIn: "2022/04/18",
-        writeBy: " حسین سیاهوشی ",
-        routeToNavigate: "mobile-item-5",
+        id: "mobile-item-3",
+        newsName: "آیا استفاده از گوشی هنگام شارژ کردن خطرناکه ؟",
+        newsImage: mobileItem3__pic1,
+        newsTextContent: "آیا واقعا خطرناکه ؟",
+        writeIn: "2022/05/07",
+        writeBy: "علی گودرزی",
+        routeToNavigate: "mobile-item-3",
       },
     ],
     gameItems: [],

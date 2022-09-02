@@ -9,11 +9,22 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 //Modules
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
+import { mobileItem7__pic1 } from "../../Components/NewsImage/NewsImage";
 //Modules
 class PrintSix extends Component {
   state = {
     computerItems: [],
-    mobileItems: [],
+    mobileItems: [
+      {
+        id: "mobile-item-7",
+        newsName: "فرق سری A و M گوشی های سامسونگ چیست؟",
+        newsImage: mobileItem7__pic1,
+        newsTextContent: "سری های سامسونگ",
+        writeIn: "2022/07/04",
+        writeBy: "علی اصغر صفری",
+        routeToNavigate: "mobile-item-6",
+      },
+    ],
     gameItems: [],
   };
   render() {

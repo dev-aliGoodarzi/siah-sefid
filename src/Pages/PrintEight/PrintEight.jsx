@@ -9,20 +9,20 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 //Modules
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
-import { mobileItem6__pic1 } from "../../Components/NewsImage/NewsImage";
+import { mobileItem9__pic1 } from "../../Components/NewsImage/NewsImage";
 //Modules
-class PrintFive extends Component {
+class PrintEight extends Component {
   state = {
     computerItems: [],
     mobileItems: [
       {
-        id: "mobile-item-6",
-        newsName: "فرق حافظه رم گوشی و کارت حافظه گوشی",
-        newsImage: mobileItem6__pic1,
-        newsTextContent: "تفاوت حافظه RAM گوشی و کارت حافظه گوشی",
-        writeIn: "2022/06/20",
-        writeBy: "حسین سیاهوشی",
-        routeToNavigate: "mobile-item-6",
+        id: "mobile-item-9",
+        newsName: "فلت گوشی چیست ؟ کاربرد و انواع کابل فلت",
+        newsImage: mobileItem9__pic1,
+        newsTextContent: "کابل فلت چیه ؟",
+        writeIn: "2022/08/01",
+        writeBy: "امیررضا خلجی ",
+        routeToNavigate: "mobile-item-9",
       },
     ],
     gameItems: [],
@@ -47,4 +47,4 @@ class PrintFive extends Component {
   }
 }
 
-export default PrintFive;
+export default PrintEight;

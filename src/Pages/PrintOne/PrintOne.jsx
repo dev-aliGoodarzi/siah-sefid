@@ -58,7 +58,7 @@ class PrintOne extends Component {
         newsName: "پاوربانک تقلبی چجوریه ؟ تشخیص پاوربانک فیک",
         newsImage: mobileItem1__pic1,
         newsTextContent: "راهنمای تشخصی پاوربانک تقلبی",
-        writeIn: "2022/04/18",
+        writeIn: "2022/04/23",
         writeBy: "علی مرادی تبار",
 
         routeToNavigate: "mobile-item-1",
@@ -68,19 +68,10 @@ class PrintOne extends Component {
         newsName: "جک هدفون چیست ؟ معنی جک 3.5 میلی متری",
         newsImage: mobileItem2__pic1,
         newsTextContent: "بررسی ساختار جک هدفون",
-        writeIn: "2022/04/18",
+        writeIn: "2022/04/23",
         writeBy: "یونس عسگری",
 
         routeToNavigate: "mobile-item-2",
-      },
-      {
-        id: "mobile-item-3",
-        newsName: "آیا استفاده از گوشی هنگام شارژ کردن خطرناکه ؟",
-        newsImage: mobileItem3__pic1,
-        newsTextContent: "آیا واقعا خطرناکه ؟",
-        writeIn: "2022/04/18",
-        writeBy: "علی گودرزی",
-        routeToNavigate: "mobile-item-3",
       },
     ],
     gameItems: [

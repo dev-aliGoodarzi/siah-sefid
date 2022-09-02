@@ -23,8 +23,10 @@ import SendArticles from "./Pages/SendArticles/SendArticles";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import CustomRedirector from "./Components/CustomRedirector/CustomRedirector";
 // *************************** MASTERS ROUTES
+
 /* ************_ Computer Items _************ */
 import ComputerPage from "./Pages/ComputerPage/ComputerPage";
+
 /* ************_ Computer Items _************ */
 import ComputerItem1Page from "./Pages/ComponentsForNewsRoutes/ComputerNews/ComputerItem1/computerItem1";
 import ComputerItem2 from "./Pages/ComponentsForNewsRoutes/ComputerNews/ComputerItem2/ComputerItem2";
@@ -37,6 +39,7 @@ import ComputerItem8 from "./Pages/ComponentsForNewsRoutes/ComputerNews/Computer
 import ComputerItem9 from "./Pages/ComponentsForNewsRoutes/ComputerNews/ComputerItem9/ComputerItem9";
 import ComputerItem10 from "./Pages/ComponentsForNewsRoutes/ComputerNews/ComputerItem10/ComputerItem10";
 import ComputerItem11 from "./Pages/ComponentsForNewsRoutes/ComputerNews/ComputerItem11/ComputerItem11";
+
 /* ************_ Mobile Items _************ */
 import MobileNews1 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews1/MobileNews1";
 import MobileNews2 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews2/MobileNews2";
@@ -58,6 +61,7 @@ import MobileNews17 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews
 import MobileNews19 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews19/MobileNews19";
 import MobileNews20 from "./Pages/ComponentsForNewsRoutes/MobilesNews/MobileNews20/MobileNews20";
 /* ************_ Mobile Items _************ */
+
 /* ************_ Game Items _************ */
 import GameItem1 from "./Pages/ComponentsForNewsRoutes/GameNews/GameItem1/GameItem1";
 import GameItem2 from "./Pages/ComponentsForNewsRoutes/GameNews/GameItem2/GameItem2";
@@ -65,6 +69,7 @@ import GameItem3 from "./Pages/ComponentsForNewsRoutes/GameNews/GameItem3/GameIt
 import GameItem4 from "./Pages/ComponentsForNewsRoutes/GameNews/GameItem4/GameItem4";
 import GameItem5 from "./Pages/ComponentsForNewsRoutes/GameNews/GameItem5/GameItem5";
 /* ************_ Game Items _************ */
+
 /* ************_ Print Items _************ */
 import Prints from "./Components/Prints/Prints";
 import PrintOne from "./Pages/PrintOne/PrintOne";
@@ -73,6 +78,10 @@ import PrintThree from "./Pages/PrintThree/PrintThree";
 import PrintFour from "./Pages/PrintFour/PrintFour";
 import PrintFive from "./Pages/PrintFive/PrintFive";
 import PrintSix from "./Pages/PrintSix/PrintSix";
+import PrintSeven from "./Pages/PrintSeven/PrintSeven";
+import PrintEight from "./Pages/PrintEight/PrintEight";
+import PrintNine from "./Pages/PrintNine/PrintNine";
+import PrintTen from "./Pages/PrintTen/PrintTen";
 /* ************_ Print Items _************ */
 
 /* ************_ Components _************ */
@@ -80,7 +89,6 @@ import MainHeader from "./Components/MainHeader/MainHeader";
 import TopHeader from "./Components/TopHeader/TopHeader";
 import Footer from "./Components/Footer/Footer";
 /* ************_ Components _************ */
-
 class App extends Component {
   state = {
     scrollYPage: 0,
@@ -256,6 +264,48 @@ class App extends Component {
         element: <GameItem5 />,
       },
     ],
+    printsRedirect: [
+      {
+        path: "/prints/printOne",
+        element: <PrintOne />,
+      },
+      {
+        path: "/prints/printTwo",
+        element: <PrintsTwo />,
+      },
+      {
+        path: "/prints/printThree",
+        element: <PrintThree />,
+      },
+      {
+        path: "/prints/printFour",
+        element: <PrintFour />,
+      },
+      {
+        path: "/prints/printFive",
+        element: <PrintFive />,
+      },
+      {
+        path: "/prints/printSix",
+        element: <PrintSix />,
+      },
+      {
+        path: "/prints/printSeven",
+        element: <PrintSeven />,
+      },
+      {
+        path: "/prints/printEight",
+        element: <PrintEight />,
+      },
+      {
+        path: "/prints/printNine",
+        element: <PrintNine />,
+      },
+      {
+        path: "/prints/printTen",
+        element: <PrintTen />,
+      },
+    ],
   };
   componentDidMount() {
     window.addEventListener("scroll", () => {
@@ -296,12 +346,6 @@ class App extends Component {
           <Route path="/send-articles" element={<SendArticles />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="prints" element={<Prints />}></Route>
-          <Route path="/prints/printOne" element={<PrintOne />} />
-          <Route path="/prints/printTwo" element={<PrintsTwo />} />
-          <Route path="/prints/printThree" element={<PrintThree />} />
-          <Route path="/prints/printFour" element={<PrintFour />} />
-          <Route path="/prints/printFive" element={<PrintFive />} />
-          <Route path="/prints/printSix" element={<PrintSix />} />
           {this.state.helpForRedirect.map((item) => {
             return (
               <Route
@@ -337,6 +381,13 @@ class App extends Component {
           <Route path="/game-news" element={<GamePage />} />
           {/* ***************************MASTER******************  */}
           {this.state.gameItemsRedirect.map((item) => {
+            return (
+              <Route path={item.path} key={item.path} element={item.element} />
+            );
+          })}
+          {/* ********************************************************** */}
+          {/* *********PAGES FOR PRINTS******** */}
+          {this.state.printsRedirect.map((item) => {
             return (
               <Route path={item.path} key={item.path} element={item.element} />
             );

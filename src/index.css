@@ -47,7 +47,7 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 body {
-  background-image: url("/src/images/bg.jpg");
+  background-image: url("./images/bg.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

@@ -10,6 +10,7 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 import {
+  computerItem11__pic2,
   mobileItem12__pic1,
   mobileItem13__pic1,
   mobileItem14__pic1,
@@ -17,7 +18,17 @@ import {
 //Modules
 class PrintTen extends Component {
   state = {
-    computerItems: [],
+    computerItems: [
+      {
+        id: "computer-item-11",
+        newsName: "چرا اطلاعات حافظه رم کامپیوتر با قطع برق پاک می شود ؟ ",
+        newsImage: computerItem11__pic2,
+        newsTextContent: "حافظه رم داینمیک چیست ؟",
+        writeIn: "2022/08/29",
+        writeBy: "علی اصغر صفری",
+        routeToNavigate: "computer-item-11",
+      },
+    ],
     mobileItems: [
       {
         id: "mobile-item-12",
@@ -41,7 +52,7 @@ class PrintTen extends Component {
         آیا شارژ اولیه نیاز است ؟`,
         writeIn: "2022/08/29",
         writeBy: "علی اصغر صفری",
-        routeToNavigate: "mobile-item-14",
+        routeToNavigate: "mobile-item-13",
       },
       {
         id: "mobile-item-14",

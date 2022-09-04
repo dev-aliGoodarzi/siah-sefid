@@ -14,7 +14,9 @@ import { Fade } from "react-reveal";
 //Modules
 
 class GameItem3 extends Component {
-  state = {};
+  state = {
+    commentsArray: [],
+  };
   componentDidMount() {
     if (window.innerWidth < 500) {
       window.scrollTo({ top: 127 });

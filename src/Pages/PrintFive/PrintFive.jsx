@@ -9,11 +9,24 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 //Modules
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
-import { mobileItem6__pic1 } from "../../Components/NewsImage/NewsImage";
+import {
+  computerItem6__pic1,
+  mobileItem6__pic1,
+} from "../../Components/NewsImage/NewsImage";
 //Modules
 class PrintFive extends Component {
   state = {
-    computerItems: [],
+    computerItems: [
+      {
+        id: "computer-item-6",
+        newsName: "باتری 6 سلولی لپ تاپ با باتری 4 سلولی چه فرقی دارد ؟",
+        newsImage: computerItem6__pic1,
+        newsTextContent: "تفاوت باتری های لپتاپ",
+        writeIn: "2022/06/20",
+        writeBy: "علیرضا حسینی",
+        routeToNavigate: "computer-item-6",
+      },
+    ],
     mobileItems: [
       {
         id: "mobile-item-6",

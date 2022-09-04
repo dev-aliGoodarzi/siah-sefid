@@ -9,11 +9,24 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 //Modules
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
-import { mobileItem8__pic1 } from "../../Components/NewsImage/NewsImage";
+import {
+  computerItem8__pic1,
+  mobileItem8__pic1,
+} from "../../Components/NewsImage/NewsImage";
 //Modules
 class PrintSeven extends Component {
   state = {
-    computerItems: [],
+    computerItems: [
+      {
+        id: "computer-item-8",
+        newsName: "حافظه SSD چیست",
+        newsImage: computerItem8__pic1,
+        newsTextContent: "تکنولوژی درایو اس اس دی",
+        writeIn: "2022/07/18",
+        writeBy: "علی گودرزی",
+        routeToNavigate: "computer-item-8",
+      },
+    ],
     mobileItems: [
       {
         id: "mobile-item-8",

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Fade } from "react-reveal";
 import ReactTooltip from "react-tooltip";
 import Comments from "../../../../Components/Comments/Comments";
+import { mobileItem12__pic1 } from "../../../../Components/NewsImage/NewsImage";
 
 //React
 //React
@@ -51,7 +52,7 @@ class MobileNews12 extends Component {
             بین یو اس بی ۳ و ۲ همین مسئله می باشد .
           </p>
           <h2>سرعت انتقال داده USB 2.0</h2>
-          <img src="" alt="" data-tip="لوگو USB 2.0" />
+          <img src={mobileItem12__pic1} alt="" data-tip="لوگو USB 2.0" />
           <p>
             سرعت انتقال داده در USB 2.0 حدود ۴۸۰ مگا بیت بر ثانیه یا ۶۰ مگا بایت
             بر ثانیه است که با این ویژگی ، برچسب ” High Speed ” را از آن خود

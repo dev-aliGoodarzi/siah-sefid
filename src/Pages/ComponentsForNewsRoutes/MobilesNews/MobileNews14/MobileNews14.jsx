@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Fade } from "react-reveal";
 import ReactTooltip from "react-tooltip";
 import Comments from "../../../../Components/Comments/Comments";
+import { mobileItem14__pic1 } from "../../../../Components/NewsImage/NewsImage";
 
 //React
 //React
@@ -61,7 +62,11 @@ class MobileNews14 extends Component {
             میده که به وفور توی گوشی ها استفاده میشه . همونطور که می بینید ، این
             چیپست از بخش های مختلفی تشکیل شده .
           </p>
-          <img src="" alt="" data-tip="چیپست اسنپدراگون 810 و قطعات داخلی" />
+          <img
+            src={mobileItem14__pic1}
+            alt=""
+            data-tip="چیپست اسنپدراگون 810 و قطعات داخلی"
+          />
           <p>
             چیپست رو می تونید مثل یه مادربورد خیلی کوچولو ( مثل کامپیوتر ) فرض
             کنید که قطعات با باس یا گذرگاه مربوط به خودشون باهم در ارتباطن .

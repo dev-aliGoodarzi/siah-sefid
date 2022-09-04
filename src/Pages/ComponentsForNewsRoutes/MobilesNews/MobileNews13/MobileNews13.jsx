@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { Fade } from "react-reveal";
 import ReactTooltip from "react-tooltip";
 import Comments from "../../../../Components/Comments/Comments";
+import {
+  mobileItem13__pic1,
+  mobileItem13__pic2,
+} from "../../../../Components/NewsImage/NewsImage";
 
 //React
 //React
@@ -58,7 +62,7 @@ class MobileNews13 extends Component {
             نادیده گرفته میشد .
           </p>
           <img
-            src=""
+            src={mobileItem13__pic1}
             alt=""
             data-tip="اثر حافظه یا memory effect در باتری های نیکل کادمیوم"
           />
@@ -90,7 +94,11 @@ class MobileNews13 extends Component {
             بگم که باتری های لیتیوم پلیمری از لیتیوم یونی جدید تر و بهترن اما نه
             لیتیوم پلیمر و نه لیتیوم یون ، دیگه به شارژ اولیه نیاز ندارن .
           </p>
-          <img src="" alt="" data-tip="شارژ اولیه گوشی و تبلت" />
+          <img
+            src={mobileItem13__pic2}
+            alt=""
+            data-tip="شارژ اولیه گوشی و تبلت"
+          />
           <p>
             شاید واستون جالب باشه که باتری های جدید مثل دقیقا بر عکس باتری های
             قدیمین یعنی دیگه اینجوری نیست که حتما تخلیه بشن و حتما فول شارژ بشن

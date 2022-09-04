@@ -13,7 +13,9 @@ import styles from "../../MASTER__STYLE.module.css";
 //Modules
 //Modules
 class GameItem5 extends Component {
-  state = {};
+  state = {
+    commentsArray: [],
+  };
   componentDidMount() {
     if (window.innerWidth < 500) {
       window.scrollTo({ top: 127 });

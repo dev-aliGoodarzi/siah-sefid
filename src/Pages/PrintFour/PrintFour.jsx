@@ -10,7 +10,7 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 import {
-  computerItem10__pic1,
+  computerItem5__pic1,
   mobileItem5__pic2,
 } from "../../Components/NewsImage/NewsImage";
 //Modules
@@ -18,13 +18,13 @@ class PrintFour extends Component {
   state = {
     computerItems: [
       {
-        id: "computer-item-10",
-        newsName: "کلاک پالس یا پالس ساعت چیست ؟ ",
-        newsImage: computerItem10__pic1,
-        newsTextContent: "سیگنال کلاک چیست ؟",
-        writeIn: "2022/04/18",
-        writeBy: "علی مرادی تبار",
-        routeToNavigate: "computer-item-10",
+        id: "topNews__computer__18__4__2022___1",
+        newsName: "لپتاپ بدون سیستم عامل چیست ؟",
+        newsImage: computerItem5__pic1,
+        newsTextContent: "لپ تاپ بدون سیستم عامل یعنی چه ؟",
+        writeIn: "2022/06/06",
+        writeBy: "علی اصغر صفری",
+        routeToNavigate: "computer-item-5",
       },
     ],
     mobileItems: [

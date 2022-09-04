@@ -20,6 +20,9 @@ class MainHeader extends Component {
   state = {
     night: false,
     currLocation: "/",
+    colorForHeaderText: "#000",
+    selectedColorForTop:
+      "linear-gradient(333deg, rgba(43,1,121,1) 0% 0%, rgba(121,56,242,1) 100% 100%)",
   };
   makeHeaderHidden = () => {
     this.hamburgerMenuContentsRef.current.style.visibility = "hidden";
@@ -84,7 +87,13 @@ class MainHeader extends Component {
               to="/"
               style={{
                 background:
-                  this.state.currLocation === "/" ? "#5603fc" : "#fff",
+                  this.state.currLocation === "/"
+                    ? this.state.selectedColorForTop
+                    : "#fff",
+                color:
+                  this.state.currLocation === "/"
+                    ? "#fff"
+                    : this.state.colorForHeaderText,
               }}
               onClick={() => {
                 this.setState({
@@ -100,8 +109,12 @@ class MainHeader extends Component {
               style={{
                 background:
                   this.state.currLocation === "computer-news"
-                    ? "#5603fc"
+                    ? this.state.selectedColorForTop
                     : "#fff",
+                color:
+                  this.state.currLocation === "computer-news"
+                    ? "#fff"
+                    : this.state.colorForHeaderText,
               }}
               onClick={() => {
                 this.setState({
@@ -118,8 +131,12 @@ class MainHeader extends Component {
               style={{
                 background:
                   this.state.currLocation === "mobile-news"
-                    ? "#5603fc"
+                    ? this.state.selectedColorForTop
                     : "#fff",
+                color:
+                  this.state.currLocation === "mobile-news"
+                    ? "#fff"
+                    : this.state.colorForHeaderText,
               }}
               onClick={() => {
                 this.setState({
@@ -134,7 +151,13 @@ class MainHeader extends Component {
               to="/game-news"
               style={{
                 background:
-                  this.state.currLocation === "game-news" ? "#5603fc" : "#fff",
+                  this.state.currLocation === "game-news"
+                    ? this.state.selectedColorForTop
+                    : "#fff",
+                color:
+                  this.state.currLocation === "game-news"
+                    ? "#fff"
+                    : this.state.colorForHeaderText,
               }}
               onClick={() => {
                 this.setState({
@@ -149,7 +172,13 @@ class MainHeader extends Component {
               to="/prints"
               style={{
                 background:
-                  this.state.currLocation === "prints" ? "#5603fc" : "#fff",
+                  this.state.currLocation === "prints"
+                    ? this.state.selectedColorForTop
+                    : "#fff",
+                color:
+                  this.state.currLocation === "prints"
+                    ? "#fff"
+                    : this.state.colorForHeaderText,
               }}
               onClick={() => {
                 this.setState({

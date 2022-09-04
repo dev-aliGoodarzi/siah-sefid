@@ -9,11 +9,24 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 //Modules
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
-import { mobileItem9__pic1 } from "../../Components/NewsImage/NewsImage";
+import {
+  computerItem9__pic1,
+  mobileItem9__pic1,
+} from "../../Components/NewsImage/NewsImage";
 //Modules
 class PrintEight extends Component {
   state = {
-    computerItems: [],
+    computerItems: [
+      {
+        id: "computer-item-9",
+        newsName: "  چیست ؟ PCI-E",
+        newsImage: computerItem9__pic1,
+        newsTextContent: "  دقیقا چیست ؟   PCI-E",
+        writeIn: "2022/08/01",
+        writeBy: "علی گودرزی",
+        routeToNavigate: "computer-item-9",
+      },
+    ],
     mobileItems: [
       {
         id: "mobile-item-9",

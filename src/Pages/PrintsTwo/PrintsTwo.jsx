@@ -9,9 +9,7 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 //Modules
 import { Fade } from "react-reveal";
 import {
-  computerItem4__pic1,
-  computerItem5__pic1,
-  computerItem6__pic1,
+  computerItem3__pic1,
   mobileItem3__pic1,
 } from "../../Components/NewsImage/NewsImage";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
@@ -21,31 +19,13 @@ class PrintsTwo extends Component {
   state = {
     computerItems: [
       {
-        id: "computer-item-4",
-        newsName: "بازی با سیستم خوبه یا بد ؟",
-        newsImage: computerItem4__pic1,
-        newsTextContent: "آیا بازی سرای سیستم ضرر دارد ؟",
-        writeIn: "2022/04/18",
-        writeBy: "علی صفری",
-        routeToNavigate: "computer-item-4",
-      },
-      {
-        id: "topNews__computer__18__4__2022___1",
-        newsName: "لپتاپ بدون سیستم عامل چیست ؟",
-        newsImage: computerItem5__pic1,
-        newsTextContent: "لپ تاپ بدون سیستم عامل یعنی چه ؟",
-        writeIn: "2022/04/18",
-        writeBy: "علی اصغر صفری",
-        routeToNavigate: "computer-item-5",
-      },
-      {
-        id: "computer-item-6",
-        newsName: "باتری 6 سلولی لپ تاپ با باتری 4 سلولی چه فرقی دارد ؟",
-        newsImage: computerItem6__pic1,
-        newsTextContent: "تفاوت باتری های لپتاپ",
-        writeIn: "2022/04/18",
-        writeBy: "علیرضا حسینی",
-        routeToNavigate: "computer-item-6",
+        id: "computer-item-3",
+        newsName: "قفل کنسینگتون چیست ؟",
+        newsImage: computerItem3__pic1,
+        newsTextContent: "از قفل کنسینگتون چه میدانید ؟",
+        writeIn: "2022/05/07",
+        writeBy: "علی مرادی تبار",
+        routeToNavigate: "computer-item-3",
       },
     ],
     mobileItems: [

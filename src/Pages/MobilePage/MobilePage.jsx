@@ -39,7 +39,6 @@ class MobilePage extends Component {
         newsTextContent: "راهنمای تشخصی پاوربانک تقلبی",
         writeIn: "2022/04/23",
         writeBy: "علی مرادی تبار",
-
         routeToNavigate: "mobile-item-1",
       },
       {
@@ -168,7 +167,7 @@ class MobilePage extends Component {
         آیا شارژ اولیه نیاز است ؟`,
         writeIn: "2022/08/29",
         writeBy: "علی اصغر صفری",
-        routeToNavigate: "mobile-item-14",
+        routeToNavigate: "mobile-item-13",
       },
       {
         id: "mobile-item-14",

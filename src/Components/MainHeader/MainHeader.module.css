@@ -85,6 +85,7 @@
   border-radius: 0.8rem;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
+  font-weight: 600;
 }
 
 .MainHeader .left .hamburgerContainer {

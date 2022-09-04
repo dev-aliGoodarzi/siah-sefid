@@ -38,7 +38,7 @@ class ComputerPage extends Component {
         newsName: "تبلت / لپتاپ هیبریدی چیست ؟",
         newsImage: computerItem1__pic1,
         newsTextContent: "تبلت / لپتاپ های هیبریدی چه کاربردی دارند ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/04/23",
         writeBy: "علی گودرزی",
         routeToNavigate: "computer-item-1",
       },
@@ -47,92 +47,97 @@ class ComputerPage extends Component {
         newsName: "آیا باتری لپتاپ من سالم است ؟",
         newsImage: computerItem2__pic1,
         newsTextContent: "تست سلامت باتری لپتاپ من",
-        writeIn: "2022/04/18",
+        writeIn: "2022/04/23",
         writeBy: "علی مرادی تبار",
         routeToNavigate: "computer-item-2",
       },
+      //Second
       {
         id: "computer-item-3",
         newsName: "قفل کنسینگتون چیست ؟",
         newsImage: computerItem3__pic1,
         newsTextContent: "از قفل کنسینگتون چه میدانید ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/05/07",
         writeBy: "علی مرادی تبار",
         routeToNavigate: "computer-item-3",
       },
-      //Second
+      //Third
       {
         id: "computer-item-4",
         newsName: "بازی با سیستم خوبه یا بد ؟",
         newsImage: computerItem4__pic1,
         newsTextContent: "آیا بازی سرای سیستم ضرر دارد ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/05/23",
         writeBy: "علی صفری",
         routeToNavigate: "computer-item-4",
       },
+      //Fourth
       {
         id: "topNews__computer__18__4__2022___1",
         newsName: "لپتاپ بدون سیستم عامل چیست ؟",
         newsImage: computerItem5__pic1,
         newsTextContent: "لپ تاپ بدون سیستم عامل یعنی چه ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/06/06",
         writeBy: "علی اصغر صفری",
         routeToNavigate: "computer-item-5",
       },
+      // Fifth
       {
         id: "computer-item-6",
         newsName: "باتری 6 سلولی لپ تاپ با باتری 4 سلولی چه فرقی دارد ؟",
         newsImage: computerItem6__pic1,
         newsTextContent: "تفاوت باتری های لپتاپ",
-        writeIn: "2022/04/18",
+        writeIn: "2022/06/20",
         writeBy: "علیرضا حسینی",
         routeToNavigate: "computer-item-6",
       },
-      //Third
+      //Sixth
       {
         id: "computer-item-7",
         newsName: "ساتا اکسپرس چیست ؟",
         newsImage: computerItem7__pic5,
         newsTextContent: "فلسفه وجودی ساتا اکسپرس",
-        writeIn: "2022/04/18",
+        writeIn: "2022/07/04",
         writeBy: "امیررضا خلجی",
         routeToNavigate: "computer-item-7",
       },
+      //SEVEN
       {
         id: "computer-item-8",
         newsName: "حافظه SSD چیست",
         newsImage: computerItem8__pic1,
         newsTextContent: "تکنولوژی درایو اس اس دی",
-        writeIn: "2022/04/18",
+        writeIn: "2022/07/18",
         writeBy: "علی گودرزی",
         routeToNavigate: "computer-item-8",
       },
+      // Eight
       {
         id: "computer-item-9",
         newsName: "  چیست ؟ PCI-E",
         newsImage: computerItem9__pic1,
         newsTextContent: "  دقیقا چیست ؟   PCI-E",
-        writeIn: "2022/04/18",
+        writeIn: "2022/08/01",
         writeBy: "علی گودرزی",
         routeToNavigate: "computer-item-9",
       },
-      //Fourth
+      // NINE
       {
         id: "computer-item-10",
         newsName: "کلاک پالس یا پالس ساعت چیست ؟ ",
         newsImage: computerItem10__pic1,
         newsTextContent: "سیگنال کلاک چیست ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/08/15",
         writeBy: "علی مرادی تبار",
         routeToNavigate: "computer-item-10",
       },
-      // Fifth
+      //Ten
       {
         id: "computer-item-11",
         newsName: "چرا اطلاعات حافظه رم کامپیوتر با قطع برق پاک می شود ؟ ",
         newsImage: computerItem11__pic2,
         newsTextContent: "حافظه رم داینمیک چیست ؟",
-        writeIn: "2022/04/18",
+        writeIn: "2022/08/29",
         writeBy: "علی اصغر صفری",
         routeToNavigate: "computer-item-11",
       },

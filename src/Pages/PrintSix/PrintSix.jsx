@@ -9,11 +9,24 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 //Modules
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
-import { mobileItem7__pic1 } from "../../Components/NewsImage/NewsImage";
+import {
+  computerItem7__pic5,
+  mobileItem7__pic1,
+} from "../../Components/NewsImage/NewsImage";
 //Modules
 class PrintSix extends Component {
   state = {
-    computerItems: [],
+    computerItems: [
+      {
+        id: "computer-item-7",
+        newsName: "ساتا اکسپرس چیست ؟",
+        newsImage: computerItem7__pic5,
+        newsTextContent: "فلسفه وجودی ساتا اکسپرس",
+        writeIn: "2022/07/04",
+        writeBy: "امیررضا خلجی",
+        routeToNavigate: "computer-item-7",
+      },
+    ],
     mobileItems: [
       {
         id: "mobile-item-7",

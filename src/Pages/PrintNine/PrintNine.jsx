@@ -10,13 +10,24 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 import {
+  computerItem10__pic1,
   mobileItem10__pic1,
   mobileItem11__pic1,
 } from "../../Components/NewsImage/NewsImage";
 //Modules
 class PrintNine extends Component {
   state = {
-    computerItems: [],
+    computerItems: [
+      {
+        id: "computer-item-10",
+        newsName: "کلاک پالس یا پالس ساعت چیست ؟ ",
+        newsImage: computerItem10__pic1,
+        newsTextContent: "سیگنال کلاک چیست ؟",
+        writeIn: "2022/08/15",
+        writeBy: "علی مرادی تبار",
+        routeToNavigate: "computer-item-10",
+      },
+    ],
     mobileItems: [
       {
         id: "mobile-item-10",

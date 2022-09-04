@@ -11,6 +11,7 @@ import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 import {
   computerItem10__pic1,
+  gameItem5__pic1,
   mobileItem10__pic1,
   mobileItem11__pic1,
 } from "../../Components/NewsImage/NewsImage";
@@ -52,7 +53,17 @@ class PrintNine extends Component {
         routeToNavigate: "mobile-item-11",
       },
     ],
-    gameItems: [],
+    gameItems: [
+      {
+        id: "topNews__game__18__4__2022___5",
+        newsName: "عناوین رایگان بعدی فروشگاه اپیک گیمز مشخص شدند",
+        newsImage: gameItem5__pic1,
+        newsTextContent: "گیم ها رایگان در Epic Games",
+        writeIn: "2022/08/15",
+        writeBy: " علی اصغر صفری  ",
+        routeToNavigate: "game-item-5",
+      },
+    ],
   };
   render() {
     return (

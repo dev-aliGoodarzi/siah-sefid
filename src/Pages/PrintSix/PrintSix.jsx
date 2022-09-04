@@ -11,6 +11,7 @@ import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 import {
   computerItem7__pic5,
+  gameItem4__pic1,
   mobileItem7__pic1,
 } from "../../Components/NewsImage/NewsImage";
 //Modules
@@ -38,7 +39,18 @@ class PrintSix extends Component {
         routeToNavigate: "mobile-item-6",
       },
     ],
-    gameItems: [],
+    gameItems: [
+      {
+        id: "topNews__game__18__4__2022___4",
+        newsTextContent:
+          " گزارش: بازی Call of Duty Modern Warfare 2 در اوایل ژوئن رونمایی خواهد شد",
+        newsImage: gameItem4__pic1,
+        newsName: " ",
+        writeIn: "2022/07/04",
+        writeBy: " علی اصغر صفری  ",
+        routeToNavigate: "game-item-4",
+      },
+    ],
   };
   render() {
     return (

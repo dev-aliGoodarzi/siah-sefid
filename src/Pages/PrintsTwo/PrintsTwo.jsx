@@ -10,6 +10,7 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 import { Fade } from "react-reveal";
 import {
   computerItem3__pic1,
+  gameItem2__pic1,
   mobileItem3__pic1,
 } from "../../Components/NewsImage/NewsImage";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
@@ -39,7 +40,18 @@ class PrintsTwo extends Component {
         routeToNavigate: "mobile-item-3",
       },
     ],
-    gameItems: [],
+    gameItems: [
+      {
+        id: "topNews__game__18__4__2022___2",
+        newsTextContent:
+          "بازی Fortnite بدون خرید هیچ اشتراکی توسط ایکس باکس کلاود قابل استریم است",
+        newsImage: gameItem2__pic1,
+        newsName: " ",
+        writeIn: "2022/05/07",
+        writeBy: " علی اصغر صفری  ",
+        routeToNavigate: "game-item-2",
+      },
+    ],
   };
   render() {
     return (

@@ -33,46 +33,49 @@ class GamePage extends Component {
           "شایعه: کانیه وست ایده‌ی یک بازی را به میاموتو ارائه داده بود",
         newsImage: gameItem1__pic1,
         newsTextContent: ` `,
-        writeIn: "06/05/2022",
+        writeIn: "2022/04/23",
         writeBy: " علی اصغر صفری  ",
         routeToNavigate: "game-item-1",
       },
+      //Second
       {
         id: "topNews__game__18__4__2022___2",
         newsName:
           "بازی Fortnite بدون خرید هیچ اشتراکی توسط ایکس باکس کلاود قابل استریم است",
         newsImage: gameItem2__pic1,
         newsTextContent: " ",
-        writeIn: "06/05/2022",
+        writeIn: "2022/05/07",
         writeBy: " علی اصغر صفری  ",
         routeToNavigate: "game-item-2",
       },
+      //fourth
       {
         id: "topNews__game__18__4__2022___3",
         newsName: "بازی The Callisto Protocol شدیداً استرس‌زا و ترسناک است",
         newsImage: gameItem3__pic1,
         newsTextContent: " ",
-        writeIn: "06/05/2022",
+        writeIn: "2022/06/06",
         writeBy: " علی اصغر صفری  ",
         routeToNavigate: "game-item-3",
       },
-      //Second
+      //sixth
       {
         id: "topNews__game__18__4__2022___4",
         newsName:
           " گزارش: بازی Call of Duty Modern Warfare 2 در اوایل ژوئن رونمایی خواهد شد",
         newsImage: gameItem4__pic1,
         newsTextContent: " ",
-        writeIn: "06/05/2022",
+        writeIn: "2022/07/04",
         writeBy: " علی اصغر صفری  ",
         routeToNavigate: "game-item-4",
       },
+      //nine
       {
         id: "topNews__game__18__4__2022___5",
         newsName: "عناوین رایگان بعدی فروشگاه اپیک گیمز مشخص شدند",
         newsImage: gameItem5__pic1,
         newsTextContent: "گیم ها رایگان در Epic Games",
-        writeIn: "06/05/2022",
+        writeIn: "2022/08/15",
         writeBy: " علی اصغر صفری  ",
         routeToNavigate: "game-item-5",
       },

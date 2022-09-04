@@ -11,6 +11,7 @@ import { Fade } from "react-reveal";
 import PrintPageMapper from "../../Components/PrintPageMapper/PrintPageMapper";
 import {
   computerItem5__pic1,
+  gameItem3__pic1,
   mobileItem5__pic2,
 } from "../../Components/NewsImage/NewsImage";
 //Modules
@@ -38,7 +39,18 @@ class PrintFour extends Component {
         routeToNavigate: "mobile-item-5",
       },
     ],
-    gameItems: [],
+    gameItems: [
+      {
+        id: "topNews__game__18__4__2022___3",
+        newsTextContent:
+          "بازی The Callisto Protocol شدیداً استرس‌زا و ترسناک است",
+        newsImage: gameItem3__pic1,
+        newsName: " ",
+        writeIn: "2022/06/06",
+        writeBy: " علی اصغر صفری  ",
+        routeToNavigate: "game-item-3",
+      },
+    ],
   };
   render() {
     return (

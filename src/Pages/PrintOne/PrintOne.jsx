@@ -10,6 +10,7 @@ import styles from "../../Components/Prints/PrintItems.module.css";
 import {
   computerItem1__pic1,
   computerItem2__pic1,
+  gameItem1__pic1,
   mobileItem1__pic1,
   mobileItem2__pic1,
 } from "../../Components/NewsImage/NewsImage";
@@ -59,7 +60,18 @@ class PrintOne extends Component {
         routeToNavigate: "mobile-item-2",
       },
     ],
-    gameItems: [],
+    gameItems: [
+      {
+        id: "topNews__game__18__4__2022___1",
+        newsTextContent:
+          "شایعه: کانیه وست ایده‌ی یک بازی را به میاموتو ارائه داده بود",
+        newsImage: gameItem1__pic1,
+        newsName: ` `,
+        writeIn: "2022/04/23",
+        writeBy: " علی اصغر صفری  ",
+        routeToNavigate: "game-item-1",
+      },
+    ],
   };
   render() {
     return (
